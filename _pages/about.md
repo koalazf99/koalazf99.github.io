@@ -23,8 +23,11 @@ I am now working as a research intern in Microsoft Research Asia (MSRA) [DKI gro
 
 [TaCube: Pre-computing Data Cubes for Answering Numerical-Reasoning Questions over Tabular Data
 ](https://aps.arxiv.org/abs/2205.12682), **Fan Zhou**, Mengkang Hu, Haoyu Dong, Zhoujun Cheng, Shi Han, Dongmei Zhang, (**Preprint**)
+
 [Table Pre-training: A Survey on Model Architectures, Pretraining Objectives, and Downstream Tasks](https://arxiv.org/abs/2201.09745), Haoyu Dong, Zhoujun Cheng, Xinyi He, Mengyu Zhou, Anda Zhou, **Fan Zhou**, Ao Liu, Shi Han, Dongmei Zhang, **IJCAI 2022(survey track)**
+
 [Exploring Image Regions Not Well Encoded by an INN](https://proceedings.mlr.press/v151/ling22a.html), Zenan Ling, **Fan Zhou**, Meng Wei, Quanshi Zhang, **AISTATS 2022**
+
 [Quantification and Analysis of Layer-wise and Pixel-wise Information Discarding](http://koalazf99.github.io), Haotian Ma, Hao Zhang, **Fan Zhou**, Quanshi Zhang, (To appear in **ICML 2022**)
 
 
