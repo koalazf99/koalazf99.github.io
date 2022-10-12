@@ -14,12 +14,12 @@ redirect_from:
 I am currently a second-year Master student at [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/), under the supervise of [Prof. Fan Cheng](https://www.cs.sjtu.edu.cn/~chengfan/index.html), major in computer science. Before that, I received my B.S. degree in IEEE honor class at SJTU, major in computer science. I used to be a research intern at [ SJTU interpretable ML lab](https://sjtu-xai-lab.github.io/), guided by [Prof. Quanshi Zhang](qszhang.com).
 
 I am now working as a research intern in Microsoft Research Asia (MSRA) [DKI group](https://www.microsoft.com/en-us/research/group/data-knowledge-intelligence/) guided by [Haoyu Dong](https://www.microsoft.com/en-us/research/people/hadong/). I am working on some interesting research topics related to semi-structured tabular data, such table pre-training, table question answering.
-
-# :fire: News
-- *2022.10*: &nbsp;🎉🎉 Our **TaCube** paper(Table QA) got accepted by EMNLP'22.
 <!-- # 🔥 News
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
+# 🔥 News
+- *2022.10*: &nbsp;🎉🎉 Our **TaCube** paper(Table QA) got accepted by EMNLP'22.
+
 
 # 📝 Publications 
 
