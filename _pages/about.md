@@ -15,9 +15,8 @@ I am currently a second-year Master student at [Shanghai Jiao Tong University](h
 
 I am now working as a research intern in Microsoft Research Asia (MSRA) [DKI group](https://www.microsoft.com/en-us/research/group/data-knowledge-intelligence/) guided by [Haoyu Dong](https://www.microsoft.com/en-us/research/people/hadong/). I am working on some interesting research topics related to semi-structured tabular data, such table pre-training, table question answering.
 
-# 🔥 News
+# :fire: News
 - *2022.10*: &nbsp;🎉🎉 Our **TaCube** paper(Table QA) got accepted by EMNLP'22.
-
 
 # 📝 Publications 
 
