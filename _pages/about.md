@@ -30,7 +30,7 @@ I am now working as a research intern in Microsoft Research Asia (MSRA) [DKI gro
  <div class='paper-box-text' markdown="1">
 <font color="FireBrick">TaCube: Pre-computing Data Cubes for Answering Numerical-Reasoning Questions over Tabular Data</font>
 **Fan Zhou**, Mengkang Hu, Haoyu Dong, Zhoujun Cheng, Fan Cheng, Shi Han, Dongmei Zhang \\
-**EMNLP 2022** | [📄 <font color="LightSeaGreen">PDF</font>](https://arxiv.org/abs/2205.12682) | [🛠 Code](https://github.com/koalazf99/tacube)
+**EMNLP 2022, Oral** | [📄 <font color="LightSeaGreen">PDF</font>](https://arxiv.org/abs/2205.12682) | [🛠 Code](https://github.com/koalazf99/tacube)
 </div>
 
 <div class='paper-box-text' markdown="1">
