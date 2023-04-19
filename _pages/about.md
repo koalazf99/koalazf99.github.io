@@ -17,9 +17,16 @@ I am currently a second-year Master student at [Shanghai Jiao Tong University](h
 I am now working as a research intern in Microsoft Research Asia (MSRA) [DKI group](https://www.microsoft.com/en-us/research/group/data-knowledge-intelligence/) guided by [Haoyu Dong](https://www.microsoft.com/en-us/research/people/hadong/). I am working on some interesting research topics related to semi-structured tabular data, such table pre-training, table question answering.
 
 # 🔥 News
+- *2023.04*: &nbsp;🔥🔥 New preprints applying [**symbolic tasks** in **instruction tuning**](https://arxiv.org/abs/2304.07995)!
 - *2022.10*: &nbsp;🎉🎉 Our **TaCube** paper(Table QA) got accepted by EMNLP'22.
 
 # 📝 Publications 
+
+<div class='paper-box-text' markdown="1">
+<font color="FireBrick">From Zero to Hero: Examining the Power of Symbolic Tasks in Instruction Tuning</font>
+Qian Liu\*, **Fan Zhou\***, Zhengbao Jiang, Longxu Dou, Min Lin, (*=equal contribution) \\
+**(2023, Preprint)** |  [📄 <font color="LightSeaGreen">PDF</font>](https://arxiv.org/abs/2304.07995) | [🛠 Code](https://github.com/sail-sg/symbolic-instruction-tuning/) | [🤗 hf datasets](https://huggingface.co/datasets/sail/symbolic-instruction-tuning) & [models](https://huggingface.co/models?search=sail/tapex-zero) | [✊ Twitter](https://twitter.com/sivil_taram/status/1648294728553877505) 
+</div>
 
 <div class='paper-box-text' markdown="1">
 <font color="FireBrick">Reflection of Thought: Inversely Eliciting Numerical Reasoning in Language Models via Solving Linear Systems</font>
