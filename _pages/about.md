@@ -10,11 +10,11 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-# 🐱‍🚀 Me
+# 🐨 Me
 
 I am currently a second-year Master student at [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/), under the supervise of [Prof. Fan Cheng](https://www.cs.sjtu.edu.cn/~chengfan/index.html), major in computer science. Before that, I received my B.S. degree in IEEE honor class at SJTU, major in computer science. I used to be a research intern at [ SJTU interpretable ML lab](https://sjtu-xai-lab.github.io/), guided by [Prof. Quanshi Zhang](qszhang.com) during my undergraduate study.
 
-In 2021.10~2022, I worked as a research intern in Microsoft Research Asia (MSRA) [DKI group](https://www.microsoft.com/en-us/research/group/data-knowledge-intelligence/) guided by [Haoyu Dong](https://www.microsoft.com/en-us/research/people/hadong/). I worked on some interesting research topics related to semi-structured tabular data, such table pre-training, table question answering. 
+In 2021.10~2022, I worked as a research intern in Microsoft Research Asia (MSRA) [DKI group](https://www.microsoft.com/en-us/research/group/data-knowledge-intelligence/) guided by [Haoyu Dong](https://www.microsoft.com/en-us/research/people/hadong/). I worked on some interesting research topics related to semi-structured tabular data, such as table pre-training, table question answering. 
 
 I also work with [Qian Liu](https://siviltaram.github.io/) at [Sea AI Lab](https://sail.sea.com/).
 
@@ -33,7 +33,7 @@ Qian Liu\*, **Fan Zhou\***, Zhengbao Jiang, Longxu Dou, Min Lin, (*=equal contri
 <div class='paper-box-text' markdown="1">
 <font color="FireBrick">Reflection of Thought: Inversely Eliciting Numerical Reasoning in Language Models via Solving Linear Systems</font>
 **Fan Zhou\***, Haoyu Dong\*, Qian Liu, Zhoujun Cheng, Shi Han, Dongmei Zhang, (*=equal contribution) \\
-**(2022, Preprint)** |  [📄 <font color="LightSeaGreen">PDF</font>](https://arxiv.org/abs/2210.05075) 
+**NeurIPS 2022, 2nd MATH-AI Workshop** |  [📄 <font color="LightSeaGreen">PDF</font>](https://arxiv.org/abs/2210.05075) 
 </div>
  
  <div class='paper-box-text' markdown="1">
