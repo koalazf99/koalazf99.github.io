@@ -51,7 +51,7 @@ Haoyu Dong, Zhoujun Cheng, Xinyi He, Mengyu Zhou, Anda Zhou, **Fan Zhou**, Ao Li
 <div class='paper-box-text' markdown="1">
 <font color="FireBrick">Exploring Image Regions Not Well Encoded by an INN</font>
 Zenan Ling, **Fan Zhou**, Meng Wei, Quanshi Zhang \\
-**AISTATS 2022** | [📄 <font color="LightSeaGreen">PDF</font>](https://proceedings.mlr.press/v151/ling22a.html)
+**AISTATS 2022** | [📄 <font color="LightSeaGreen">PDF</font>](https://proceedings.mlr.press/v151/ling22a/ling22a.pdf)
 </div>
 
 <div class='paper-box-text' markdown="1">
