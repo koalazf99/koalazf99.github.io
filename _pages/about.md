@@ -16,13 +16,36 @@ I am currently a second-year Master student at [Shanghai Jiao Tong University](h
 
 In 2021.10~2022, I worked as a research intern in Microsoft Research Asia (MSRA) [DKI group](https://www.microsoft.com/en-us/research/group/data-knowledge-intelligence/) guided by [Haoyu Dong](https://www.microsoft.com/en-us/research/people/hadong/). I worked on some interesting research topics related to semi-structured tabular data, such as table pre-training, table question answering. 
 
-I also work with [Qian Liu](https://siviltaram.github.io/) at [Sea AI Lab](https://sail.sea.com/).
+Currently, I work as a research assistant in [XLang Lab](https://xlang.ai) @[HKUNLP](https://hkunlp.github.io/) advised by Prof. Tao Yu.
+I also have the fortune to work with [Qian Liu](https://siviltaram.github.io/) at [Sea AI Lab](https://sail.sea.com/), who is an excellent collaborator!🤗
 
 # 🔥 News
+- *2023.10*: &nbsp;🔥🔥 We've built [OpenAgents](https://github.com/xlang-ai/OpenAgents), an open platform for language agents in the wild!
+- *2023.10*: &nbsp;🙋🙋 We have released [Lemur-70B](https://arxiv.org/abs/2310.06830), an agentic language model based on LLama-2!
 - *2023.04*: &nbsp;🔥🔥 New preprint applying [**symbolic tasks** in **instruction tuning**](https://arxiv.org/abs/2304.07995)!
 - *2022.10*: &nbsp;🎉🎉 Our **TaCube** paper(Table QA) got accepted by EMNLP'22.
 
+# 🥑 Projects
+
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/openagents_overview.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[*OpenAgents*: an Open Platform for Language Agents in the Wild](https://github.com/xlang-ai/OpenAgents)
+
+[**Demo**](https://chat.xlang.ai) | (Paper coming soon!)
+-  Data Agent: code interpreter augmented with data tools
+- Plugins Agent: 200+ plugins for daily life
+- Web Agent: autonomous web browsing
+</div>
+</div>
+
 # 📝 Publications 
+
+<div class='paper-box-text' markdown="1">
+<font color="FireBrick">Lemur: Harmonizing Natural Language and Code for Language Agents</font>
+Yiheng Xu\*, Hongjin Su\*, Chen Xing\*, Boyu Mi, Qian Liu, Weijia Shi, Binyuan Hui, **Fan Zhou**, Yitao Liu, Tianbao Xie, Zhoujun Cheng, Siheng Zhao, Lingpeng Kong, Bailin Wang, Caiming Xiong, Tao Yu, (*=equal contribution) \\
+**(2023, Preprint)** |  [📄 <font color="LightSeaGreen">PDF</font>](https://arxiv.org/abs/2310.06830) | [🛠 Code](https://github.com/OpenLemur/Lemur) | [🤗 hf models](https://huggingface.co/OpenLemur) | [📓 Blog](https://www.xlang.ai/blog/openlemur) 
+</div>
 
 <div class='paper-box-text' markdown="1">
 <font color="FireBrick">From Zero to Hero: Examining the Power of Symbolic Tasks in Instruction Tuning</font>
