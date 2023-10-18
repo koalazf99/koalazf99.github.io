@@ -30,9 +30,11 @@ I also have the fortune to work with [Qian Liu](https://siviltaram.github.io/) a
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/openagents_overview.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[*OpenAgents*: an Open Platform for Language Agents in the Wild](https://github.com/xlang-ai/OpenAgents)
+[*OpenAgents*](https://github.com/xlang-ai/OpenAgents)
 
-[**Demo**](https://chat.xlang.ai) | (Paper coming soon!)
+Host your own ChatGPT Plus locally!
+
+[**Demo**](https://chat.xlang.ai) | [**Paper**](https://arxiv.org/abs/2310.10634) | [**Doc**](https://docs.xkang.ai) | [![](https://img.shields.io/github/stars/xlang-ai/OpenAgents?style=social)](https://github.com/xlang-ai/OpenAgents)
 -  Data Agent: code interpreter augmented with data tools
 - Plugins Agent: 200+ plugins for daily life
 - Web Agent: autonomous web browsing
@@ -42,43 +44,50 @@ I also have the fortune to work with [Qian Liu](https://siviltaram.github.io/) a
 # 📝 Publications 
 
 <div class='paper-box-text' markdown="1">
-<font color="FireBrick">Lemur: Harmonizing Natural Language and Code for Language Agents</font>
+<font color="CornFlowerBlue">OpenAgents: An Open Platform for Language Agents in the Wild
+</font>
+Tianbao Xie\*, **Fan Zhou\***, Zhoujun Cheng\*, Peng Shi\*, Luoxuan Weng\*, Yitao Liu\*, Toh Jing Hua, Junning Zhao, Qian Liu, Che Liu, Leo Z. Liu, Yiheng Xu, Hongjin Su, Dongchan Shin, Caiming Xiong, Tao Yu, (*=equal contribution) \\
+**(2023, Preprint)** |  [📄 <font color="LightSeaGreen">PDF</font>](https://arxiv.org/abs/2310.10634) | [🛠 Code](https://github.com/xlang-ai/OpenAgents) | [📓 Blog](https://www.xlang.ai/blog/xlang-intro) | [![](https://img.shields.io/github/stars/xlang-ai/OpenAgents?style=social)](https://github.com/xlang-ai/OpenAgents)
+</div>
+
+<div class='paper-box-text' markdown="1">
+<font color="CornFlowerBlue">Lemur: Harmonizing Natural Language and Code for Language Agents</font>
 Yiheng Xu\*, Hongjin Su\*, Chen Xing\*, Boyu Mi, Qian Liu, Weijia Shi, Binyuan Hui, **Fan Zhou**, Yitao Liu, Tianbao Xie, Zhoujun Cheng, Siheng Zhao, Lingpeng Kong, Bailin Wang, Caiming Xiong, Tao Yu, (*=equal contribution) \\
-**(2023, Preprint)** |  [📄 <font color="LightSeaGreen">PDF</font>](https://arxiv.org/abs/2310.06830) | [🛠 Code](https://github.com/OpenLemur/Lemur) | [🤗 hf models](https://huggingface.co/OpenLemur) | [📓 Blog](https://www.xlang.ai/blog/openlemur) 
+**(2023, Preprint)** |  [📄 <font color="LightSeaGreen">PDF</font>](https://arxiv.org/abs/2310.06830) | [🛠 Code](https://github.com/OpenLemur/Lemur) | [🤗 hf models](https://huggingface.co/OpenLemur) | [📓 Blog](https://www.xlang.ai/blog/openlemur) | [![](https://img.shields.io/github/stars/OpenLemur/Lemur?style=social)](https://github.com/OpenLemur/Lemur)
 </div>
 
 <div class='paper-box-text' markdown="1">
-<font color="FireBrick">From Zero to Hero: Examining the Power of Symbolic Tasks in Instruction Tuning</font>
+<font color="CornFlowerBlue">From Zero to Hero: Examining the Power of Symbolic Tasks in Instruction Tuning</font>
 Qian Liu\*, **Fan Zhou\***, Zhengbao Jiang, Longxu Dou, Min Lin, (*=equal contribution) \\
-**(2023, Preprint)** |  [📄 <font color="LightSeaGreen">PDF</font>](https://arxiv.org/abs/2304.07995) | [🛠 Code](https://github.com/sail-sg/symbolic-instruction-tuning/) | [🤗 hf datasets](https://huggingface.co/datasets/sail/symbolic-instruction-tuning) & [models](https://huggingface.co/models?search=sail/tapex-zero) | [✊ Twitter](https://twitter.com/sivil_taram/status/1648294728553877505) 
+**(2023, Preprint)** |  [📄 <font color="LightSeaGreen">PDF</font>](https://arxiv.org/abs/2304.07995) | [🛠 Code](https://github.com/sail-sg/symbolic-instruction-tuning/) | [🤗 hf datasets](https://huggingface.co/datasets/sail/symbolic-instruction-tuning) & [models](https://huggingface.co/models?search=sail/tapex-zero) | [✊ Twitter](https://twitter.com/sivil_taram/status/1648294728553877505) | [![](https://img.shields.io/github/stars/sail-sg/symbolic-instruction-tuning?style=social)](https://github.com/sail-sg/symbolic-instruction-tuning)
 </div>
 
 <div class='paper-box-text' markdown="1">
-<font color="FireBrick">Reflection of Thought: Inversely Eliciting Numerical Reasoning in Language Models via Solving Linear Systems</font>
+<font color="CornFlowerBlue">Reflection of Thought: Inversely Eliciting Numerical Reasoning in Language Models via Solving Linear Systems</font>
 **Fan Zhou\***, Haoyu Dong\*, Qian Liu, Zhoujun Cheng, Shi Han, Dongmei Zhang, (*=equal contribution) \\
 **NeurIPS 2022, 2nd MATH-AI Workshop** |  [📄 <font color="LightSeaGreen">PDF</font>](https://arxiv.org/abs/2210.05075) 
 </div>
  
  <div class='paper-box-text' markdown="1">
-<font color="FireBrick">TaCube: Pre-computing Data Cubes for Answering Numerical-Reasoning Questions over Tabular Data</font>
+<font color="CornFlowerBlue">TaCube: Pre-computing Data Cubes for Answering Numerical-Reasoning Questions over Tabular Data</font>
 **Fan Zhou**, Mengkang Hu, Haoyu Dong, Zhoujun Cheng, Fan Cheng, Shi Han, Dongmei Zhang \\
 **EMNLP 2022,** **<font color="FireBrick">Oral</font>** | [📄 <font color="LightSeaGreen">PDF</font>](https://arxiv.org/abs/2205.12682) | [🛠 Code](https://github.com/koalazf99/tacube)
 </div>
 
 <div class='paper-box-text' markdown="1">
-<font color="FireBrick">Table Pre-training: A Survey on Model Architectures, Pretraining Objectives, and Downstream Tasks</font>
+<font color="CornFlowerBlue">Table Pre-training: A Survey on Model Architectures, Pretraining Objectives, and Downstream Tasks</font>
 Haoyu Dong, Zhoujun Cheng, Xinyi He, Mengyu Zhou, Anda Zhou, **Fan Zhou**, Ao Liu, Shi Han, Dongmei Zhang \\
 **IJCAI 2022(survey track)** | [📄 <font color="LightSeaGreen">PDF</font>](https://arxiv.org/abs/2201.09745)
 </div>
 
 <div class='paper-box-text' markdown="1">
-<font color="FireBrick">Exploring Image Regions Not Well Encoded by an INN</font>
+<font color="CornFlowerBlue">Exploring Image Regions Not Well Encoded by an INN</font>
 Zenan Ling, **Fan Zhou**, Meng Wei, Quanshi Zhang \\
 **AISTATS 2022** | [📄 <font color="LightSeaGreen">PDF</font>](https://proceedings.mlr.press/v151/ling22a/ling22a.pdf)
 </div>
 
 <div class='paper-box-text' markdown="1">
-<font color="FireBrick">Quantification and Analysis of Layer-wise and Pixel-wise Information Discarding</font>
+<font color="CornFlowerBlue">Quantification and Analysis of Layer-wise and Pixel-wise Information Discarding</font>
 Haotian Ma, Hao Zhang, **Fan Zhou**, Quanshi Zhang \\
 **ICML 2022** | [📄 <font color="LightSeaGreen">PDF</font>](https://proceedings.mlr.press/v162/ma22b/ma22b.pdf) | [🛠 Code](https://github.com/haotianSustc/deepinfo)
 </div>
