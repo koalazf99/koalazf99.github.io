@@ -34,7 +34,7 @@ I also have the fortune to work with [Qian Liu](https://siviltaram.github.io/) a
 
 Host your own ChatGPT Plus locally!
 
-[**Demo**](https://chat.xlang.ai) | [**Paper**](https://arxiv.org/abs/2310.10634) | [**Doc**](https://docs.xkang.ai) | [![](https://img.shields.io/github/stars/xlang-ai/OpenAgents?style=social)](https://github.com/xlang-ai/OpenAgents)
+[**Demo**](https://chat.xlang.ai) | [**Paper**](https://arxiv.org/abs/2310.10634) | [**Doc**](https://docs.xlang.ai) | [![](https://img.shields.io/github/stars/xlang-ai/OpenAgents?style=social)](https://github.com/xlang-ai/OpenAgents)
 -  Data Agent: code interpreter augmented with data tools
 - Plugins Agent: 200+ plugins for daily life
 - Web Agent: autonomous web browsing
