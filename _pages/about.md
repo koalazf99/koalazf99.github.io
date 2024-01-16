@@ -19,7 +19,7 @@ redirect_from:
 
 # 🐨 Me
 
-I am currently a second-year Master student at [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/), under the supervise of [Prof. Fan Cheng](https://www.cs.sjtu.edu.cn/~chengfan/index.html), major in computer science. Before that, I received my B.S. degree in IEEE honor class at SJTU, major in computer science. I used to be a research intern at [ SJTU interpretable ML lab](https://sjtu-xai-lab.github.io/), guided by [Prof. Quanshi Zhang](http://qszhang.com) during my undergraduate study.
+I am currently a final-year Master student at [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/), under the supervise of [Prof. Fan Cheng](https://www.cs.sjtu.edu.cn/~chengfan/index.html), major in computer science. Before that, I received my B.S. degree in IEEE honor class at SJTU, major in computer science. I used to be a research intern at [ SJTU interpretable ML lab](https://sjtu-xai-lab.github.io/), guided by [Prof. Quanshi Zhang](http://qszhang.com) during my undergraduate study.
 
 In 2021.10~2022, I worked as a research intern in Microsoft Research Asia (MSRA) [DKI group](https://www.microsoft.com/en-us/research/group/data-knowledge-intelligence/) guided by [Haoyu Dong](https://www.microsoft.com/en-us/research/people/hadong/). I worked on some interesting research topics related to semi-structured tabular data, such as table pre-training, table question answering. 
 
@@ -27,14 +27,36 @@ Currently, I work as a research assistant in [XLang Lab](https://xlang.ai) @[HKU
 I also have the fortune to work with [Qian Liu](https://siviltaram.github.io/) at [Sea AI Lab](https://sail.sea.com/), who is an excellent collaborator!🤗
 
 <a href='https://scholar.google.com/citations?user=qi8UzmkAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
-<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fkoalazf99.github.io&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a>
+<a href='./uploads/FZhou_Resume.pdf'><img src="https://img.shields.io/badge/-Fan's Resumé-299DE7?logo=gitbook&logoColor=white"></a>
+<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fkoalazf99.github.io&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=page hits&edge_flat=false"/></a>
 
 
-# 🔥 News
+<!-- # 🔥 News
+- *2024.01*: &nbsp;🎉🎉 Our **Lemur** paper(Agent Model) got accepted by ICLR'24 (Spotlight, 5%).
 - *2023.10*: &nbsp;🔥🔥 We've built [OpenAgents](https://github.com/xlang-ai/OpenAgents), an open platform for language agents in the wild!
 - *2023.10*: &nbsp;🙋🙋 We have released [Lemur-70B](https://arxiv.org/abs/2310.06830), an agentic language model based on LLama-2!
 - *2023.04*: &nbsp;🔥🔥 New preprint applying [**symbolic tasks** in **instruction tuning**](https://arxiv.org/abs/2304.07995)!
-- *2022.10*: &nbsp;🎉🎉 Our **TaCube** paper(Table QA) got accepted by EMNLP'22.
+- *2022.10*: &nbsp;🎉🎉 Our **TaCube** paper(Table QA) got accepted by EMNLP'22 (Oral Presentation). -->
+
+# 🔥 News
+<style>  
+    .scrollable-area {  
+        max-height: 180px;  
+        overflow-y: auto;  
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);  
+        padding: 10px;  
+    }  
+</style>  
+
+<div class="scrollable-area">  
+    <ul>  
+        <li><em>2024.01</em>: 🎉🎉 Our <strong>Lemur</strong> paper(Agent Model) got accepted by ICLR'24 (Spotlight, 5%).</li>  
+        <li><em>2023.10</em>: 🔥🔥 We've built <a href="https://github.com/xlang-ai/OpenAgents">OpenAgents</a>, an open platform for language agents in the wild!</li>  
+        <li><em>2023.10</em>: 🙋🙋 We have released <a href="https://arxiv.org/abs/2310.06830">Lemur-70B</a>, an agentic language model based on LLama-2!</li>  
+        <li><em>2023.04</em>: 🔥🔥 New <a href="https://arxiv.org/abs/2304.07995">preprint</a> applying <strong>symbolic tasks</strong> in <strong>instruction tuning</strong></li>  
+        <li><em>2022.10</em>: 🎉🎉 Our <strong>TaCube</strong> paper(Table QA) got accepted by EMNLP'22 (Oral Presentation).</li>  
+    </ul>  
+</div>  
 
 # 🥑 Projects
 
@@ -64,7 +86,7 @@ Tianbao Xie\*, **Fan Zhou\***, Zhoujun Cheng\*, Peng Shi\*, Luoxuan Weng\*, Yita
 <div class='paper-box-text' markdown="1">
 <font color="CornFlowerBlue">Lemur: Harmonizing Natural Language and Code for Language Agents</font>
 Yiheng Xu\*, Hongjin Su\*, Chen Xing\*, Boyu Mi, Qian Liu, Weijia Shi, Binyuan Hui, **Fan Zhou**, Yitao Liu, Tianbao Xie, Zhoujun Cheng, Siheng Zhao, Lingpeng Kong, Bailin Wang, Caiming Xiong, Tao Yu, (*=equal contribution) \\
-**(2023, Preprint)** |  [📄 <font color="LightSeaGreen">PDF</font>](https://arxiv.org/abs/2310.06830) | [🛠 Code](https://github.com/OpenLemur/Lemur) | [🤗 hf models](https://huggingface.co/OpenLemur) | [📓 Blog](https://www.xlang.ai/blog/openlemur) | [![](https://img.shields.io/github/stars/OpenLemur/Lemur?style=social)](https://github.com/OpenLemur/Lemur)
+**ICLR 2024,** **<font color="FireBrick">Spotlight</font>** |  [📄 <font color="LightSeaGreen">PDF</font>](https://arxiv.org/abs/2310.06830) | [🛠 Code](https://github.com/OpenLemur/Lemur) | [🤗 hf models](https://huggingface.co/OpenLemur) | [📓 Blog](https://www.xlang.ai/blog/openlemur) | [![](https://img.shields.io/github/stars/OpenLemur/Lemur?style=social)](https://github.com/OpenLemur/Lemur)
 </div>
 
 <div class='paper-box-text' markdown="1">
