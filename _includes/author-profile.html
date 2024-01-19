@@ -104,7 +104,7 @@
         <li><a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i> Google Scholar</a></li>
       {% endif %}
       {% if author.uri %}
-        <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link"></i> Semantic Scholar</a></li>
+        <li><a href="{{ author.uri }}"><i class="ai ai-semantic-scholar ai-fw"></i> Semantic Scholar</a></li>
       {% endif %}
       {% if author.pubmed %}
         <li><a href="{{ author.pubmed }}"><i class="ai ai-pubmed-square ai-fw"></i> PubMed</a></li>
@@ -120,9 +120,6 @@
 {% endif %}
     </ul>
       <div class="author__urls_sm">
-      {% if author.uri %}
-        <a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i></a>
-      {% endif %}
       {% if author.email %}
         <a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i></a>
       {% endif %}
@@ -197,6 +194,9 @@
       {% endif %}
       {% if author.vine %}
         <a href="https://vine.co/u/{{ author.vine }}"><i class="fab fa-fw fa-vine" aria-hidden="true"></i></a>
+      {% endif %}
+      {% if author.uri %}
+        <a href="{{ author.uri }}"><i class="ai ai-semantic-scholar ai-fw" aria-hidden="true"></i></a>
       {% endif %}
       {% if author.googlescholar %}
         <a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i></a>
