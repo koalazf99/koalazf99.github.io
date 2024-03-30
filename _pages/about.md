@@ -19,12 +19,12 @@ redirect_from:
 
 # 🐨 Me
 
-I am currently a final-year Master student at [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/), under the supervise of [Prof. Fan Cheng](https://www.cs.sjtu.edu.cn/~chengfan/index.html), major in computer science. Before that, I received my B.S. degree in IEEE honor class at SJTU, major in computer science. I used to be a research intern at [ SJTU interpretable ML lab](https://sjtu-xai-lab.github.io/), guided by [Prof. Quanshi Zhang](http://qszhang.com) during my undergraduate study.
+I obtained my Master Degree at [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/), under the supervise of [Prof. Fan Cheng](https://www.cs.sjtu.edu.cn/~chengfan/index.html), major in computer science. Before that, I received my B.S. degree in IEEE honor class at SJTU, major in computer science. I used to be a research intern at [ SJTU interpretable ML lab](https://sjtu-xai-lab.github.io/), guided by [Prof. Quanshi Zhang](http://qszhang.com) during my undergraduate study.
 
 In 2021.10~2022, I worked as a research intern in Microsoft Research Asia (MSRA) [DKI group](https://www.microsoft.com/en-us/research/group/data-knowledge-intelligence/) guided by [Haoyu Dong](https://www.microsoft.com/en-us/research/people/hadong/). I worked on some interesting research topics related to semi-structured tabular data, such as table pre-training, table question answering. 
 
-Currently, I work as a research assistant in [XLang Lab](https://xlang.ai) @[HKUNLP](https://hkunlp.github.io/) advised by Prof. Tao Yu.
-I also have the fortune to work with [Qian Liu](https://siviltaram.github.io/) at [Sea AI Lab](https://sail.sea.com/), who is an excellent collaborator!🤗
+In 2023, I worked as a research assistant in [XLang Lab](https://xlang.ai) @[HKUNLP](https://hkunlp.github.io/) advised by Prof. Tao Yu.
+Currently I am doing AI research at [GAIR Lab](https://plms.ai) advised by [Pengfei Liu](http://pfliu.com), and am affiliated with [Shanghai AI Laboratory](https://www.shlab.org.cn/). I also have the fortune to work with [Qian Liu](https://siviltaram.github.io) at [Sea AI Lab](https://sail.sea.com), who is an excellent collaborator!🤗
 
 <a href='https://scholar.google.com/citations?user=qi8UzmkAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 <a href='./uploads/FZhou_Resume.pdf'><img src="https://img.shields.io/badge/-Fan's Resumé-299DE7?logo=gitbook&logoColor=white"></a>
@@ -88,9 +88,16 @@ Host your own ChatGPT Plus locally!
 # 📝 Publications 
 
 <div class='paper-box-text' markdown="1">
+<strong><font color="#374798">Dissecting Human and LLM Preferences</font></strong>\\
+Junlong Li, Fan Zhou, Shichao Sun, Yikai Zhang, Hai Zhao, Pengfei Liu \\
+**(2024, Preprint)** |  [📄 <a href="https://arxiv.org/abs/2402.11296" style="pdf"><span>PDF</span></a>] | [🛠 <a href="https://github.com/GAIR-NLP/Preference-Dissection" style="code"><span>Code</span></a>] | [🌐 <a href="https://huggingface.co/spaces/Preference-Dissection/Page" style="pdf"><span>Page</span></a>] | [![](https://img.shields.io/github/stars/GAIR-NLP/Preference-Dissection?style=social)](https://github.com/GAIR-NLP/Preference-Dissection)
+</div><br>
+
+
+<div class='paper-box-text' markdown="1">
 <strong><font color="#374798">OpenAgents: An Open Platform for Language Agents in the Wild</font></strong>\\
 Tianbao Xie\*, **Fan Zhou\***, Zhoujun Cheng\*, Peng Shi\*, Luoxuan Weng\*, Yitao Liu\*, Toh Jing Hua, Junning Zhao, Qian Liu, Che Liu, Leo Z. Liu, Yiheng Xu, Hongjin Su, Dongchan Shin, Caiming Xiong, Tao Yu, (*=equal contribution) \\
-**(2023, Preprint)** |  [📄 <a href="https://arxiv.org/abs/2310.10634" style="pdf"><span>PDF</span></a>] | [🛠 <a href="https://github.com/xlang-ai/OpenAgents" style="code"><span>Code</span></a>] | [📓 <a href="https://www.xlang.ai/blog/xlang-intro" style="pdf"><span>Blog</span></a>] | [![](https://img.shields.io/github/stars/xlang-ai/OpenAgents?style=social)](https://github.com/xlang-ai/OpenAgents)
+**ICLR 2024, LLM Agents Workshop** |  [📄 <a href="https://arxiv.org/abs/2310.10634" style="pdf"><span>PDF</span></a>] | [🛠 <a href="https://github.com/xlang-ai/OpenAgents" style="code"><span>Code</span></a>] | [📓 <a href="https://www.xlang.ai/blog/xlang-intro" style="pdf"><span>Blog</span></a>] | [![](https://img.shields.io/github/stars/xlang-ai/OpenAgents?style=social)](https://github.com/xlang-ai/OpenAgents)
 </div><br>
 
 
@@ -139,6 +146,7 @@ Haotian Ma, Hao Zhang, **Fan Zhou**, Quanshi Zhang \\
 
 # 📖 Service
 - Workshop Reviewer: [Instruction Workshop @ NeurIPS 2023](https://an-instructive-workshop.github.io/)
+- Conference Reviewer: COLING 2024
 
 # 🎖 Honors and Awards
 - MSRA Stars of Tomorrow (Award of Excellent Intern), 2022
@@ -147,5 +155,5 @@ Haotian Ma, Hao Zhang, **Fan Zhou**, Quanshi Zhang \\
 - Shanghai City Scholarship(≈top 5%), 2018
 
 # 📖 Educations
-- *2021.09 - 2024.03 (expected)*, M.S.@SJTU, Computer Science & Engineering
+- *2021.09 - 2024.03*, M.S.@SJTU, Computer Science & Engineering
 - *2017.09 - 2021.06*, B.S.@SJTU, IEEE honor class, Computer Science.
