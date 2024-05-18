@@ -24,7 +24,7 @@ I obtained my Master Degree at [Shanghai Jiao Tong University](https://en.sjtu.e
 In 2021.10~2022, I worked as a research intern in Microsoft Research Asia (MSRA) [DKI group](https://www.microsoft.com/en-us/research/group/data-knowledge-intelligence/) guided by [Haoyu Dong](https://www.microsoft.com/en-us/research/people/hadong/). I worked on some interesting research topics related to semi-structured tabular data, such as table pre-training, table question answering. 
 
 In 2023, I worked as a research assistant in [XLang Lab](https://xlang.ai) @[HKUNLP](https://hkunlp.github.io/) advised by Prof. Tao Yu.
-Currently I am doing AI research at [GAIR Lab](https://plms.ai) advised by [Pengfei Liu](http://pfliu.com), and am affiliated with [Shanghai AI Laboratory](https://www.shlab.org.cn/). I also have the fortune to work with [Qian Liu](https://siviltaram.github.io) at [Sea AI Lab](https://sail.sea.com), who is an excellent collaborator!🤗
+Currently I am doing AI research at [GAIR Lab](https://plms.ai), and am affiliated with [Shanghai AI Laboratory](https://www.shlab.org.cn/). I also have the fortune to work with [Qian Liu](https://siviltaram.github.io) at [Sea AI Lab](https://sail.sea.com), who is an excellent collaborator!🤗
 
 <a href='https://scholar.google.com/citations?user=qi8UzmkAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 <a href='./uploads/FZhou_Resume.pdf'><img src="https://img.shields.io/badge/-Fan's Resumé-299DE7?logo=gitbook&logoColor=white"></a>
@@ -60,12 +60,13 @@ Currently I am doing AI research at [GAIR Lab](https://plms.ai) advised by [Peng
 </style>  
 
 <div class="scrollable-area">  
-    <ul>  
-        <li><em>2024.01</em>: 🎉🎉 Our <strong>Lemur</strong> paper(Agent Model) got accepted by ICLR'24 (<font color="#cc0000">Spotlight</font>, 5%).</li>  
+    <ul>
+        <li><em>2024.05</em>: 🎉🎉 <strong>Preference Dissection</strong> paper is accepted by  ACL'24.</li>
+        <li><em>2024.01</em>: 🎉🎉 Our <strong>Lemur</strong> paper(Agent Model) is accepted by ICLR'24 (<font color="#cc0000">Spotlight</font>, 5%).</li>  
         <li><em>2023.10</em>: 🔥🔥 We've built <a href="https://github.com/xlang-ai/OpenAgents">OpenAgents</a>, an open platform for language agents in the wild!</li>  
         <li><em>2023.10</em>: 🙋🙋 We have released <a href="https://arxiv.org/abs/2310.06830">Lemur-70B</a>, an agentic language model based on LLama-2!</li>  
         <li><em>2023.04</em>: 🔥🔥 New <a href="https://arxiv.org/abs/2304.07995">preprint</a> applying <strong>symbolic tasks</strong> in <strong>instruction tuning</strong></li>  
-        <li><em>2022.10</em>: 🎉🎉 Our <strong>TaCube</strong> paper(Table QA) got accepted by EMNLP'22 (<font color="#cc0000">Oral</font> Presentation).</li>  
+        <li><em>2022.10</em>: 🎉🎉 Our <strong>TaCube</strong> paper(Table QA) is accepted by EMNLP'22 (<font color="#cc0000">Oral</font> Presentation).</li>  
     </ul>  
 </div>  
 
@@ -90,7 +91,7 @@ Host your own ChatGPT Plus locally!
 <div class='paper-box-text' markdown="1">
 <strong><font color="#374798">Dissecting Human and LLM Preferences</font></strong>\\
 Junlong Li, Fan Zhou, Shichao Sun, Yikai Zhang, Hai Zhao, Pengfei Liu \\
-**(2024, Preprint)** |  [📄 <a href="https://arxiv.org/abs/2402.11296" style="pdf"><span>PDF</span></a>] | [🛠 <a href="https://github.com/GAIR-NLP/Preference-Dissection" style="code"><span>Code</span></a>] | [🌐 <a href="https://huggingface.co/spaces/Preference-Dissection/Page" style="pdf"><span>Page</span></a>] | [![](https://img.shields.io/github/stars/GAIR-NLP/Preference-Dissection?style=social)](https://github.com/GAIR-NLP/Preference-Dissection)
+**ACL 2024** |  [📄 <a href="https://arxiv.org/abs/2402.11296" style="pdf"><span>PDF</span></a>] | [🛠 <a href="https://github.com/GAIR-NLP/Preference-Dissection" style="code"><span>Code</span></a>] | [🌐 <a href="https://huggingface.co/spaces/GAIR/Preference-Dissection-Visualization" style="pdf"><span>Page</span></a>] | [![](https://img.shields.io/github/stars/GAIR-NLP/Preference-Dissection?style=social)](https://github.com/GAIR-NLP/Preference-Dissection)
 </div><br>
 
 
