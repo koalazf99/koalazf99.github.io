@@ -90,7 +90,7 @@ Host your own ChatGPT Plus locally!
 
 <div class='paper-box-text' markdown="1">
 <strong><font color="#374798">Dissecting Human and LLM Preferences</font></strong>\\
-Junlong Li, Fan Zhou, Shichao Sun, Yikai Zhang, Hai Zhao, Pengfei Liu \\
+Junlong Li, **Fan Zhou**, Shichao Sun, Yikai Zhang, Hai Zhao, Pengfei Liu \\
 **ACL 2024** |  [📄 <a href="https://arxiv.org/abs/2402.11296" style="pdf"><span>PDF</span></a>] | [🛠 <a href="https://github.com/GAIR-NLP/Preference-Dissection" style="code"><span>Code</span></a>] | [🌐 <a href="https://huggingface.co/spaces/GAIR/Preference-Dissection-Visualization" style="pdf"><span>Page</span></a>] | [![](https://img.shields.io/github/stars/GAIR-NLP/Preference-Dissection?style=social)](https://github.com/GAIR-NLP/Preference-Dissection)
 </div><br>
 
