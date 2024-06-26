@@ -17,17 +17,24 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-# 🐨 Me
+# 🐨 Me: 
+I am Fan Zhou, currently doing AI research at [GAIR Lab](https://plms.ai) (2024 -- Now) mentored by Prof. [Pengfei Liu](http://pfliu.com/).
 
-I obtained my Master Degree at [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/), under the supervise of [Prof. Fan Cheng](https://www.cs.sjtu.edu.cn/~chengfan/index.html), major in computer science. Before that, I received my B.S. degree in IEEE honor class at SJTU, major in computer science. I used to be a research intern at [ SJTU interpretable ML lab](https://sjtu-xai-lab.github.io/), guided by [Prof. Quanshi Zhang](http://qszhang.com) during my undergraduate study.
+Previously, I obtained my Master Degree at [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/), under the supervise of Prof. [Fan Cheng](https://www.cs.sjtu.edu.cn/~chengfan/index.html) and Prof. [Hongfei Fu](https://jhc.sjtu.edu.cn/~hongfeifu/), major in computer science. I completed my B.S. degree in IEEE honor class at SJTU.
+I've interned/worked at [Interpretable ML lab](https://sjtu-xai-lab.github.io/)(2019), [Microsoft Research Asia](https://www.microsoft.com/en-us/research/group/data-knowledge-intelligence/)(2021-2022), [XLang Lab](https://xlang.ai/)@[HKUNLP](https://hkunlp.github.io/)(2023).
 
-In 2021.10~2022, I worked as a research intern in Microsoft Research Asia (MSRA) [DKI group](https://www.microsoft.com/en-us/research/group/data-knowledge-intelligence/) guided by [Haoyu Dong](https://www.microsoft.com/en-us/research/people/hadong/). I worked on some interesting research topics related to semi-structured tabular data, such as table pre-training, table question answering. 
+I also work closely with [Qian Liu](https://siviltaram.github.io) at [Sea AI Lab](https://sail.sea.com).
 
-In 2023, I worked as a research assistant in [XLang Lab](https://xlang.ai) @[HKUNLP](https://hkunlp.github.io/) advised by Prof. Tao Yu.
-Currently I am doing AI research at [GAIR Lab](https://plms.ai), and am affiliated with [Shanghai AI Laboratory](https://www.shlab.org.cn/). I also have the fortune to work with [Qian Liu](https://siviltaram.github.io) at [Sea AI Lab](https://sail.sea.com), who is an excellent collaborator!🤗
+## Research Interests
+I am generally interested in Natural Language Processing, and Machine Learning.
+Recently, I am specifically interested in:
+- Data-Centric Methods: please kindly check my [Data-Centric Reading List](https://github.com/koalazf99/Awesome-DataCentric-LLM) 😁
+- Code Generation, Understanding, and Reasoning
+- Agentic Language Models and Applications [[OpenAgents](https://github.com/xlang-ai/OpenAgents), [Lemur](https://arxiv.org/abs/2310.06830)]
+
 
 <a href='https://scholar.google.com/citations?user=qi8UzmkAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
-<a href='./uploads/FZhou_Resume.pdf'><img src="https://img.shields.io/badge/-Fan's Resumé-299DE7?logo=gitbook&logoColor=white"></a>
+<a href='./uploads/FZhou_Resume.pdf'><img src="https://img.shields.io/badge/-My Resumé-299DE7?logo=gitbook&logoColor=white"></a>
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fkoalazf99.github.io&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=page hits&edge_flat=false"/></a>
 
 
@@ -41,10 +48,11 @@ Currently I am doing AI research at [GAIR Lab](https://plms.ai), and am affiliat
 # 🔥 News
 <style>  
     .scrollable-area {  
-        max-height: 180px;  
+        max-height: 170px;  
         overflow-y: auto;  
         box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);  
         padding: 10px;  
+        color: #333;
     }
     .pdf {
         text-decoration: none;
@@ -59,19 +67,18 @@ Currently I am doing AI research at [GAIR Lab](https://plms.ai), and am affiliat
     }
 </style>  
 
-<div class="scrollable-area">  
+<div class="scrollable-area" style="width:100%;">
     <ul>
-        <li><em>2024.05</em>: 🎉🎉 <strong>Preference Dissection</strong> paper is accepted by  ACL'24.</li>
-        <li><em>2024.01</em>: 🎉🎉 Our <strong>Lemur</strong> paper(Agent Model) is accepted by ICLR'24 (<font color="#cc0000">Spotlight</font>, 5%).</li>  
-        <li><em>2023.10</em>: 🔥🔥 We've built <a href="https://github.com/xlang-ai/OpenAgents">OpenAgents</a>, an open platform for language agents in the wild!</li>  
-        <li><em>2023.10</em>: 🙋🙋 We have released <a href="https://arxiv.org/abs/2310.06830">Lemur-70B</a>, an agentic language model based on LLama-2!</li>  
-        <li><em>2023.04</em>: 🔥🔥 New <a href="https://arxiv.org/abs/2304.07995">preprint</a> applying <strong>symbolic tasks</strong> in <strong>instruction tuning</strong></li>  
-        <li><em>2022.10</em>: 🎉🎉 Our <strong>TaCube</strong> paper(Table QA) is accepted by EMNLP'22 (<font color="#cc0000">Oral</font> Presentation).</li>  
+        <li><em>2024.05</em>: 📄 <strong>Preference Dissection</strong> paper is accepted by  ACL'24.</li>
+        <li><em>2024.01</em>: 📄 Our <strong>Lemur</strong> paper(Agent Model) is accepted by ICLR'24 (<font color="#cc0000">Spotlight</font>, 5%).</li>  
+        <li><em>2023.10</em>: 🔥 We've built <a href="https://github.com/xlang-ai/OpenAgents">OpenAgents</a>, an open platform for language agents in the wild!</li>  
+        <li><em>2023.10</em>: 🙋 We have released <a href="https://arxiv.org/abs/2310.06830">Lemur-70B</a>, an agentic language model based on LLama-2!</li>  
+        <li><em>2023.04</em>: 🔥 New <a href="https://arxiv.org/abs/2304.07995">preprint</a> applying <strong>symbolic tasks</strong> in <strong>instruction tuning</strong></li>  
+        <li><em>2022.10</em>: 📄 Our <strong>TaCube</strong> paper(Table QA) is accepted by EMNLP'22 (<font color="#cc0000">Oral</font> Presentation).</li>  
     </ul>  
 </div>  
 
 # 🥑 Projects
-
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/openagents_overview.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -79,7 +86,7 @@ Currently I am doing AI research at [GAIR Lab](https://plms.ai), and am affiliat
 
 Host your own ChatGPT Plus locally!
 
-[**Demo**](https://chat.xlang.ai) | [**Paper**](https://arxiv.org/abs/2310.10634) | [**Doc**](https://docs.xlang.ai) | [![](https://img.shields.io/github/stars/xlang-ai/OpenAgents?style=social)](https://github.com/xlang-ai/OpenAgents)
+[~~**Demo**~~](https://chat.xlang.ai) | [**Paper**](https://arxiv.org/abs/2310.10634) | [**Doc**](https://docs.xlang.ai) | [![](https://img.shields.io/github/stars/xlang-ai/OpenAgents?style=social)](https://github.com/xlang-ai/OpenAgents)
 -  Data Agent: code interpreter augmented with data tools
 - Plugins Agent: 200+ plugins for daily life
 - Web Agent: autonomous web browsing
@@ -145,16 +152,26 @@ Haotian Ma, Hao Zhang, **Fan Zhou**, Quanshi Zhang \\
 **ICML 2022** | [📄 <a href="https://proceedings.mlr.press/v162/ma22b/ma22b.pdf" style="pdf"><span>PDF</span></a>] | [🛠 <a href="https://github.com/haotianSustc/deepinfo" style="code"><span>Code</span></a>]
 </div>
 
-# 📖 Service
+# 📌 Service
 - Workshop Reviewer: [Instruction Workshop @ NeurIPS 2023](https://an-instructive-workshop.github.io/)
 - Conference Reviewer: COLING 2024
+
+# 🎲 Exeperiences
+**Academia**
+- *2021.09 - 2024.03*, M.S.@SJTU, Computer Science & Engineering
+- *2017.09 - 2021.06*, B.S.@SJTU, IEEE honor class, Computer Science.
+
+**Others**
+<!-- Templates -->
+<!-- - *2024.06 - now*, AI Researcher@? -->
+<!-- - *2024.02 - 2024.0?, Research@?-->
+<!-- - *2024.02 - now*, Collaborator@? (part-time) -->
+- *2023.04 - 2023.12*, Research Assistant@XLang Lab, HKU. supervised by Prof. [Tao Yu](https://taoyds.github.io/).
+- *2021.10 - 2022.10*, Research Intern@Microsoft Research Asia. supervised by [Haoyu Dong](https://www.microsoft.com/en-us/research/people/hadong/).
+- *2019.05 - 2019.10*, Research Intern@Interpretable ML Lab, SJTU. supervised by Prof. [Quanshi Zhang](qszhang.com).
 
 # 🎖 Honors and Awards
 - MSRA Stars of Tomorrow (Award of Excellent Intern), 2022
 - Outstanding Graduates of SJTU, 2021
 - SJTU Academic Scholarship, 2017~2020
 - Shanghai City Scholarship(≈top 5%), 2018
-
-# 📖 Educations
-- *2021.09 - 2024.03*, M.S.@SJTU, Computer Science & Engineering
-- *2017.09 - 2021.06*, B.S.@SJTU, IEEE honor class, Computer Science.

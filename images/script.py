@@ -5,7 +5,7 @@ def resize_image(input_path, output_path, size):
     resized_image = image.resize(size)
     resized_image.save(output_path)
 
-input_file = "Fan_Profile.jpeg"
+input_file = "2024_Profile.png"
 
 # Resize to 192x192
 output_file_192 = "android-chrome-192x192.png"

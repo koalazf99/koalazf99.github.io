@@ -14,9 +14,9 @@ main:
   
   - title: "Service"
     url: "/#-service"
+  
+  - title: "Exeperiences"
+    url: "/#-exeperiences"
 
   - title: "Honors and Awards"
     url: "/#-honors-and-awards"
-
-  - title: "Educations"
-    url: "/#-educations"
