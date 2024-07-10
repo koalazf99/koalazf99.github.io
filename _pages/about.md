@@ -105,7 +105,7 @@ Junlong Li, **Fan Zhou**, Shichao Sun, Yikai Zhang, Hai Zhao, Pengfei Liu \\
 <div class='paper-box-text' markdown="1">
 <strong><font color="#374798">OpenAgents: An Open Platform for Language Agents in the Wild</font></strong>\\
 Tianbao Xie\*, **Fan Zhou\***, Zhoujun Cheng\*, Peng Shi\*, Luoxuan Weng\*, Yitao Liu\*, Toh Jing Hua, Junning Zhao, Qian Liu, Che Liu, Leo Z. Liu, Yiheng Xu, Hongjin Su, Dongchan Shin, Caiming Xiong, Tao Yu, (*=equal contribution) \\
-**ICLR 2024, LLM Agents Workshop** |  [📄 <a href="https://arxiv.org/abs/2310.10634" style="pdf"><span>PDF</span></a>] | [🛠 <a href="https://github.com/xlang-ai/OpenAgents" style="code"><span>Code</span></a>] | [📓 <a href="https://www.xlang.ai/blog/xlang-intro" style="pdf"><span>Blog</span></a>] | [![](https://img.shields.io/github/stars/xlang-ai/OpenAgents?style=social)](https://github.com/xlang-ai/OpenAgents)
+**COLM 2024** |  [📄 <a href="https://arxiv.org/abs/2310.10634" style="pdf"><span>PDF</span></a>] | [🛠 <a href="https://github.com/xlang-ai/OpenAgents" style="code"><span>Code</span></a>] | [📓 <a href="https://www.xlang.ai/blog/xlang-intro" style="pdf"><span>Blog</span></a>] | [![](https://img.shields.io/github/stars/xlang-ai/OpenAgents?style=social)](https://github.com/xlang-ai/OpenAgents)
 </div><br>
 
 
