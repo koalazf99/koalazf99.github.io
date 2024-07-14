@@ -69,7 +69,8 @@ Recently, I am specifically interested in:
 
 <div class="scrollable-area" style="width:100%;">
     <ul>
-        <li><em>2024.05</em>: 📄 <strong>Preference Dissection</strong> paper is accepted by  ACL'24.</li>
+        <li><em>2024.07</em>: 📄 <strong>OpenAgents</strong> paper is accepted by COLM'24.</li>
+        <li><em>2024.05</em>: 📄 <strong>Preference Dissection</strong> paper is accepted by ACL'24.</li>
         <li><em>2024.01</em>: 📄 Our <strong>Lemur</strong> paper(Agent Model) is accepted by ICLR'24 (<font color="#cc0000">Spotlight</font>, 5%).</li>  
         <li><em>2023.10</em>: 🔥 We've built <a href="https://github.com/xlang-ai/OpenAgents">OpenAgents</a>, an open platform for language agents in the wild!</li>  
         <li><em>2023.10</em>: 🙋 We have released <a href="https://arxiv.org/abs/2310.06830">Lemur-70B</a>, an agentic language model based on LLama-2!</li>  
@@ -154,7 +155,7 @@ Haotian Ma, Hao Zhang, **Fan Zhou**, Quanshi Zhang \\
 
 # 📌 Service
 - Workshop Reviewer: [Instruction Workshop @ NeurIPS 2023](https://an-instructive-workshop.github.io/)
-- Conference Reviewer: COLING 2024
+- Conference Reviewer: COLING 2024,2025
 
 # 🎲 Exeperiences
 **Academia**
