@@ -154,8 +154,8 @@ Haotian Ma, Hao Zhang, **Fan Zhou**, Quanshi Zhang \\
 </div>
 
 # 📌 Service
-- Workshop Reviewer: [Instruction Workshop @ NeurIPS 2023](https://an-instructive-workshop.github.io/)
-- Conference Reviewer: COLING 2024,2025
+- Workshop Reviewer: [Instruction Workshop @ NeurIPS 2023](https://an-instructive-workshop.github.io/), [MATH-AI Workshop @ NeurIPS 2024](https://mathai2024.github.io/).
+- Conference Reviewer: COLING 2024~2025, ICLR 2025
 
 # 🎲 Exeperiences
 **Academia**
