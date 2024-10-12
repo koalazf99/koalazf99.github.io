@@ -28,7 +28,7 @@ I also work closely with [Qian Liu](https://siviltaram.github.io) at [Sea AI Lab
 ## Research Interests
 I am generally interested in Natural Language Processing, and Machine Learning.
 Recently, I am specifically interested in:
-- Data-Centric Methods: please kindly check my [Data-Centric Reading List](https://github.com/koalazf99/Awesome-DataCentric-LLM) 😁
+- Data-Centric Methods: [[ProX](https://arxiv.org/abs/2409.17115)]. Please kindly check my [Data-Centric Reading List](https://github.com/koalazf99/Awesome-DataCentric-LLM) 😁
 - Code Generation, Understanding, and Reasoning
 - Agentic Language Models and Applications [[OpenAgents](https://github.com/xlang-ai/OpenAgents), [Lemur](https://arxiv.org/abs/2310.06830)]
 
@@ -80,21 +80,6 @@ Recently, I am specifically interested in:
     </ul>  
 </div>
 
-# 🥑 Projects
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/openagents_overview.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[*OpenAgents*](https://github.com/xlang-ai/OpenAgents)
-
-Host your own ChatGPT Plus locally!
-
-[~~**Demo**~~](https://chat.xlang.ai) | [**Paper**](https://arxiv.org/abs/2310.10634) | [**Doc**](https://docs.xlang.ai) | [![](https://img.shields.io/github/stars/xlang-ai/OpenAgents?style=social)](https://github.com/xlang-ai/OpenAgents)
-- Data Agent: code interpreter augmented with data tools
-- Plugins Agent: 200+ plugins for daily life
-- Web Agent: autonomous web browsing
-</div>
-</div>
-
 # 📝 Publications
 
 <div class='paper-box-text' markdown="1">
@@ -142,7 +127,7 @@ Qian Liu\*, **Fan Zhou\***, Zhengbao Jiang, Longxu Dou, Min Lin, (*=equal contri
 <div class='paper-box-text' markdown="1">
 <strong><font color="#374798">TaCube: Pre-computing Data Cubes for Answering Numerical-Reasoning Questions over Tabular Data</font></strong>\\
 **Fan Zhou**, Mengkang Hu, Haoyu Dong, Zhoujun Cheng, Fan Cheng, Shi Han, Dongmei Zhang \\
-**EMNLP 2022,** **<font color="#cc0000">Oral</font>** | [📄 <a href="https://arxiv.org/abs/2205.12682" style="pdf"><span>PDF</span></a>] | [🛠 <a href="https://github.com/koalazf99/tacube" style="code"><span>Code</span></a>]
+**EMNLP 2022,** **<font color="#cc0000">Oral</font>** | [📄 <a href="https://arxiv.org/abs/2205.12682" style="pdf"><span>PDF</span></a>]
 </div><br>
 
 <div class='paper-box-text' markdown="1">
@@ -161,6 +146,21 @@ Zenan Ling, **Fan Zhou**, Meng Wei, Quanshi Zhang \\
 <strong><font color="#374798">Quantification and Analysis of Layer-wise and Pixel-wise Information Discarding</font></strong>\\
 Haotian Ma, Hao Zhang, **Fan Zhou**, Quanshi Zhang \\
 **ICML 2022** | [📄 <a href="https://proceedings.mlr.press/v162/ma22b/ma22b.pdf" style="pdf"><span>PDF</span></a>] | [🛠 <a href="https://github.com/haotianSustc/deepinfo" style="code"><span>Code</span></a>]
+</div>
+
+# 🥑 Projects
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/openagents_overview.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[*OpenAgents*](https://github.com/xlang-ai/OpenAgents)
+
+Host your own ChatGPT Plus locally!
+
+[~~**Demo**~~](https://chat.xlang.ai) | [**Paper**](https://arxiv.org/abs/2310.10634) | [**Doc**](https://docs.xlang.ai) | [![](https://img.shields.io/github/stars/xlang-ai/OpenAgents?style=social)](https://github.com/xlang-ai/OpenAgents)
+- Data Agent: code interpreter augmented with data tools
+- Plugins Agent: 200+ plugins for daily life
+- Web Agent: autonomous web browsing
+</div>
 </div>
 
 # 📌 Service
