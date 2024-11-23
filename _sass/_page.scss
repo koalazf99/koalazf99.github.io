@@ -46,6 +46,7 @@
 .page__lead {
   font-family: $global-font-family;
   font-size: $type-size-4;
+  
 }
 
 .page__content {
@@ -67,7 +68,7 @@
   }
 
   p, li, dl {
-    font-size: 1em;
+    font-size: 1.2em;
   }
 
   /* paragraph indents */
@@ -84,10 +85,10 @@
   }
 
   a {
-    text-decoration: underline;
+    text-decoration: none;
 
     &:hover {
-      text-decoration: underline;
+      text-decoration: none;
 
       img {
         box-shadow: 0 0 10px rgba(#000, 0.25);
@@ -99,16 +100,19 @@
     margin-top: 1em;
     font-family: $sans-serif;
     font-weight: bold;
+    
   }
 
   dd {
     margin-left: 1em;
     font-family: $sans-serif;
     font-size: $type-size-6;
+    
   }
 
   .small {
     font-size: $type-size-6;
+    
   }
 
   /* blockquote citations */
@@ -163,9 +167,11 @@
 
     .page__title {
       font-size: $type-size-2;
+      
 
       @include breakpoint($small) {
         font-size: $type-size-1;
+        
       }
     }
   }
@@ -186,6 +192,7 @@
   color: #fff;
   font-family: $caption-font-family;
   font-size: $type-size-7;
+  
   background: #000;
   text-align: right;
   z-index: 5;
@@ -228,6 +235,7 @@
 .page__share-title {
   margin-bottom: 10px;
   font-size: $type-size-6;
+  
   text-transform: uppercase;
 }
 
@@ -241,7 +249,7 @@
   color: mix(#fff, $gray, 25%);
   font-family: $sans-serif;
   font-size: $type-size-6;
-
+  
   p {
     margin: 0;
   }

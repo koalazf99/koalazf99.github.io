@@ -5,24 +5,24 @@
 /*
    Typography
    ========================================================================== */
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,600,400italic,600italic,300,300italic');
 
-$doc-font-size              : 14;
+$doc-font-size              : 16;
 
 /* paragraph indention */
 $paragraph-indent           : false; // true, false (default)
 $indent-var                 : 0.5em;
 
 /* system typefaces */
-$serif                      : Georgia, Times, serif;
-$sans-serif                 : "Trebuchet MS", Helvetica, sans-serif;
-// $sans-serif                 : Georgia, serif, sans-serif;
+$serif                      : 'Titillium Web', Times, serif;
+// $sans-serif: 'Roboto', 'Open Sans', 'Poppins', 'Oswald', 'Raleway', sans-serif;
+$sans-serif                 : 'Titillium Web', Verdana, Helvetica, sans-serif;
 
-// $sans-serif                 : -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
 $monospace                  : Monaco, Consolas, "Lucida Console", monospace;
 
 /* sans serif typefaces */
 $sans-serif-narrow          : $sans-serif;
-$helvetica                  : Helvetica, "Helvetica Neue", Arial, sans-serif;
+$helvetica                  : 'Titillium Web', "Helvetica Neue", Arial, sans-serif;
 
 /* serif typefaces */
 $georgia                    : Georgia, serif;
@@ -40,10 +40,10 @@ $type-size-1                : 2.441em;  // ~39.056px
 $type-size-2                : 1.953em;  // ~31.248px
 $type-size-3                : 1.4em;  // ~25.008px
 $type-size-4                : 1.2em;   // ~20px
-$type-size-5                : 1em;      // ~16px
-$type-size-6                : 1em;   // ~12px
-$type-size-7                : 0.6875em; // ~11px
-$type-size-8                : 0.625em;  // ~10px
+$type-size-5                : 1.1em;      // ~16px
+$type-size-6                : 1.1em;   // ~12px
+$type-size-7                : 1.1em; // ~11px
+$type-size-8                : 1.1em;  // ~10px
 
 
 /*

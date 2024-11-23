@@ -17,19 +17,25 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-# 🐨 Me: 
+<link
+    href="https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather:wght@700&family=Open+Sans:wght@700&family=Playfair+Display:wght@700&family=Poppins:wght@700&family=Roboto:wght@700&family=Lora:wght@700&family=Oswald:wght@700&family=Raleway:wght@700&family=Pacifico&display=swap"
+    rel="stylesheet"
+>
+<style>
+
+</style>
+# 🐨 About Me
 I am Fan Zhou, currently doing AI research at [GAIR Lab](https://plms.ai) (2024 -- Now) mentored by Prof. [Pengfei Liu](http://pfliu.com/).
 
-Previously, I obtained my Master Degree at [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/), under the supervise of Prof. [Fan Cheng](https://www.cs.sjtu.edu.cn/~chengfan/index.html) and Prof. [Hongfei Fu](https://jhc.sjtu.edu.cn/~hongfeifu/), major in computer science. I completed my B.S. degree in IEEE honor class at SJTU.
-I've interned/worked at [Interpretable ML lab](https://sjtu-xai-lab.github.io/)(2019), [Microsoft Research Asia](https://www.microsoft.com/en-us/research/group/data-knowledge-intelligence/)(2021-2022), [XLang Lab](https://xlang.ai/)@[HKUNLP](https://hkunlp.github.io/)(2023).
-
-I also work closely with [Qian Liu](https://siviltaram.github.io) at [Sea AI Lab](https://sail.sea.com).
+Previously, I obtained my Master Degree, and Bachelor Degree (IEEE honor class) at [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/) (SJTU), major in computer science.
+I've interned at [Microsoft Research Asia](https://www.microsoft.com/en-us/research/group/data-knowledge-intelligence/) (2021-2022), [XLang Lab](https://xlang.ai/)@[HKUNLP](https://hkunlp.github.io/) (2023), where I spent wonderful times with my mentors and colleagues.
 
 ## Research Interests
-I am generally interested in Natural Language Processing, and Machine Learning.
-Recently, I am specifically interested in:
-- Data-Centric Methods: [[ProX](https://arxiv.org/abs/2409.17115)]. Please kindly check my [Data-Centric Reading List](https://github.com/koalazf99/Awesome-DataCentric-LLM) 😁
-- Code Generation, Understanding, and Reasoning
+I am generally interested in Natural Language Processing, and try to train good models and build useful tools.
+
+Recently, I am particularly interested in:
+- Data-Centric Methods: [[ProX](https://arxiv.org/abs/2409.17115)].
+- Code Generation, Understanding, and Reasoning.
 - Agentic Language Models and Applications [[OpenAgents](https://github.com/xlang-ai/OpenAgents), [Lemur](https://arxiv.org/abs/2310.06830)]
 
 <a href='https://scholar.google.com/citations?user=qi8UzmkAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
@@ -47,11 +53,33 @@ Recently, I am specifically interested in:
 
 <style>  
     .scrollable-area {  
-        max-height: 170px;  
+        max-height: 190px;  
         overflow-y: auto;  
-        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);  
-        padding: 10px;  
+        box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);  /* 更柔和的阴影 */
+        padding: 10px 15px;  /* 增加内边距让内容不贴边 */
         color: #333;
+        border: 1px solid #e0e0e0;  /* 浅灰色边框 */
+        border-radius: 8px;  /* 圆角边框 */
+        background-color: #ffffff;  /* 确保背景是白色 */
+    }
+    /* 设置滚动条的宽度和轨道背景 */
+    .scrollable-area::-webkit-scrollbar {
+        width: 8px;
+    }
+    /* 设置滚动条轨道 */
+    .scrollable-area::-webkit-scrollbar-track {
+        background: #f1f1f1;
+        border-radius: 4px;
+    }
+    /* 设置滚动条滑块 */
+    .scrollable-area::-webkit-scrollbar-thumb {
+        background: #888;
+        border-radius: 4px;
+    }
+
+    /* 鼠标悬停在滑块上时的样式 */
+    .scrollable-area::-webkit-scrollbar-thumb:hover {
+        background: #555;
     }
     .pdf {
         text-decoration: none;
@@ -80,114 +108,165 @@ Recently, I am specifically interested in:
     </ul>  
 </div>
 
-# 📝 Publications
+# Publications
 
 <div class='paper-box-text' markdown="1">
 <strong><font color="#374798">Programming Every Example: Lifting Pre-training Data Quality like Experts at Scale</font></strong>\\
 **Fan Zhou\***, Zengzhi Wang\*, Qian Liu, Junlong Li, Pengfei Liu, (*=equal contribution) \\
-**2024, Preprint** |  [📄 <a href="https://arxiv.org/abs/2409.17115" style="pdf"><span>PDF</span></a>] | [🛠 <a href="https://github.com/GAIR-NLP/ProX" style="code"><span>Code</span></a>] | [🤗 <a href="https://huggingface.co/gair-prox" style="pdf"><span>hf repo</span></a>]| [🌐 <a href="https://gair-nlp.github.io/ProX" style="pdf"><span>Page</span></a>] | [![](https://img.shields.io/github/stars/GAIR-NLP/ProX?style=social)](https://github.com/GAIR-NLP/ProX)
-</div><br>
+**2024, Preprint**. <br>
+<a href="https://arxiv.org/abs/2409.17115" style="pdf"><span>PDF</span></a> / 
+<a href="https://github.com/GAIR-NLP/ProX" style="code"><span>Code</span></a> / 
+<img src="images/huggingface_logo.svg" width="2.4%" style="vertical-align: middle;"> 
+<a href="https://huggingface.co/gair-prox" style="pdf"><span>Dataset</span>,</a>
+<span>**<font color="#cc0000">>5K Downloads, >100B Tokens</font>**</span> / 
+<a href="https://gair-nlp.github.io/ProX" style="pdf"><span>Page</span></a> / 
+<a href="https://github.com/GAIR-NLP/ProX">
+<img src="https://img.shields.io/github/stars/GAIR-NLP/ProX?style=social" style="vertical-align: middle;"> \\
+</a>
+</div>
+<span>Small-LLM-based Pre-training Data Refining Framework via Seamless Program Generation.</span> 
+<br><br>
 
 <div class='paper-box-text' markdown="1">
 <strong><font color="#374798">OlympicArena: Benchmarking Multi-discipline Cognitive Reasoning for Superintelligent AI</font></strong>\\
 Zhen Huang, Zengzhi Wang, Shijie Xia, Xuefeng Li, Haoyang Zou, Ruijie Xu, Run-Ze Fan, Lyumanshan Ye, Ethan Chern, Yixin Ye, Yikai Zhang, Yuqing Yang, Ting Wu, Binjie Wang, Shichao Sun, Yang Xiao, Yiyuan Li, **Fan Zhou**, Steffi Chern, Yiwei Qin, Yan Ma, Jiadi Su, Yixiu Liu, Yuxiang Zheng, Shaoting Zhang, Dahua Lin, Yu Qiao, Pengfei Liu \\
-**Neurips 2024 (DB track)** |  [📄 <a href="https://arxiv.org/abs/2406.12753" style="pdf"><span>PDF</span></a>] | [🛠 <a href="https://github.com/GAIR-NLP/OlympicArena" style="code"><span>Code</span></a>] | [🤗 <a href="https://huggingface.co/datasets/GAIR/OlympicArena" style="pdf"><span>hf datasets</span></a>]| [🌐 <a href="https://gair-nlp.github.io/OlympicArena/" style="pdf"><span>Page</span></a>] | [![](https://img.shields.io/github/stars/GAIR-NLP/OlympicArena?style=social)](https://github.com/GAIR-NLP/OlympicArena)
-</div><br>
+**Neurips 2024 (DB track)** <br>
+<a href="https://arxiv.org/abs/2406.12753" style="pdf"><span>PDF</span></a> /
+<a href="https://github.com/GAIR-NLP/OlympicArena" style="code"><span>Code</span></a> /
+<img src="images/huggingface_logo.svg" width="2.4%" style="vertical-align: middle;"> 
+<a href="https://huggingface.co/datasets/GAIR/OlympicArena" style="pdf"><span>Datasets</span></a> /
+<a href="https://gair-nlp.github.io/OlympicArena/" style="pdf"><span>Page</span></a> /
+<a href="https://github.com/GAIR-NLP/OlympicArena">
+<img src="https://img.shields.io/github/stars/GAIR-NLP/OlympicArena?style=social" style="vertical-align: middle;"> \\
+</a>
+</div>
+<span>A Challenging Multi-Modal Olympic Competition Benchmark for LLMs and LVMs.</span> 
+<br><br>
 
 <div class='paper-box-text' markdown="1">
 <strong><font color="#374798">Dissecting Human and LLM Preferences</font></strong>\\
 Junlong Li, **Fan Zhou**, Shichao Sun, Yikai Zhang, Hai Zhao, Pengfei Liu \\
-**ACL 2024** |  [📄 <a href="https://arxiv.org/abs/2402.11296" style="pdf"><span>PDF</span></a>] | [🛠 <a href="https://github.com/GAIR-NLP/Preference-Dissection" style="code"><span>Code</span></a>] | [🌐 <a href="https://huggingface.co/spaces/GAIR/Preference-Dissection-Visualization" style="pdf"><span>Page</span></a>] | [![](https://img.shields.io/github/stars/GAIR-NLP/Preference-Dissection?style=social)](https://github.com/GAIR-NLP/Preference-Dissection)
-</div><br>
+**ACL 2024** <br>
+<a href="https://arxiv.org/abs/2402.11296" style="pdf"><span>PDF</span></a> /
+<a href="https://github.com/GAIR-NLP/Preference-Dissection" style="code"><span>Code</span></a> /
+<img src="images/huggingface_logo.svg" width="2.4%" style="vertical-align: middle;"> 
+<a href="https://huggingface.co/datasets/GAIR/Preference-Dissection" style="pdf"><span>Datasets</span></a> /
+<a href="https://github.com/GAIR-NLP/Preference-Dissection">
+<img src="https://img.shields.io/github/stars/GAIR-NLP/Preference-Dissection?style=social" style="vertical-align: middle;"> \\
+</a>
+</div>
+<span>Disentangling Prefered and Dispreferred Features of LLM Responses.</span> 
+<br><br>
 
 <div class='paper-box-text' markdown="1">
 <strong><font color="#374798">OpenAgents: An Open Platform for Language Agents in the Wild</font></strong>\\
 Tianbao Xie\*, **Fan Zhou\***, Zhoujun Cheng\*, Peng Shi\*, Luoxuan Weng\*, Yitao Liu\*, Toh Jing Hua, Junning Zhao, Qian Liu, Che Liu, Leo Z. Liu, Yiheng Xu, Hongjin Su, Dongchan Shin, Caiming Xiong, Tao Yu, (*=equal contribution) \\
-**COLM 2024** |  [📄 <a href="https://arxiv.org/abs/2310.10634" style="pdf"><span>PDF</span></a>] | [🛠 <a href="https://github.com/xlang-ai/OpenAgents" style="code"><span>Code</span></a>] | [📓 <a href="https://www.xlang.ai/blog/xlang-intro" style="pdf"><span>Blog</span></a>] | [![](https://img.shields.io/github/stars/xlang-ai/OpenAgents?style=social)](https://github.com/xlang-ai/OpenAgents)
-</div><br>
+**COLM 2024** <br>
+<a href="https://arxiv.org/abs/2310.10634" style="pdf"><span>PDF</span></a> /
+<a href="https://github.com/xlang-ai/OpenAgents" style="code"><span>Code</span></a> /
+<a href="https://www.xlang.ai/blog/xlang-intro" style="pdf"><span>Blog</span></a>
+<span>**<font color="#cc0000"> (7.5K Users)</font>**</span> / 
+<a href="https://github.com/xlang-ai/OpenAgents">
+<img src="https://img.shields.io/github/stars/xlang-ai/OpenAgents?style=social" style="vertical-align: middle;"> \\
+</a>
+</div>
+<span>An open platform for using, hosting, and building language agents.</span> 
+<br><br>
 
 <div class='paper-box-text' markdown="1">
 <strong><font color="#374798">Lemur: Harmonizing Natural Language and Code for Language Agents</font></strong>\\
 Yiheng Xu\*, Hongjin Su\*, Chen Xing\*, Boyu Mi, Qian Liu, Weijia Shi, Binyuan Hui, **Fan Zhou**, Yitao Liu, Tianbao Xie, Zhoujun Cheng, Siheng Zhao, Lingpeng Kong, Bailin Wang, Caiming Xiong, Tao Yu, (*=equal contribution) \\
-**ICLR 2024,** **<font color="#cc0000">Spotlight</font>** | [📄 <a href="https://arxiv.org/abs/2310.06830" style="pdf"><span>PDF</span></a>] | [🛠 <a href="https://github.com/OpenLemur/Lemur" style="code"><span>Code</span></a>] | [🤗 <a href="https://huggingface.co/OpenLemur" style=pdf><span>hf models</span></a>] | [📓 <a href="https://www.xlang.ai/blog/openlemur" style="pdf"><span>Blog</span></a>] | [![](https://img.shields.io/github/stars/OpenLemur/Lemur?style=social)](https://github.com/OpenLemur/Lemur)
+**ICLR 2024,** **<font color="#cc0000">Spotlight</font>** <br>
+<a href="https://arxiv.org/abs/2310.06830" style="pdf"><span>PDF</span></a> /
+<a href="https://github.com/OpenLemur/Lemur" style="code"><span>Code</span></a> /
+<img src="images/huggingface_logo.svg" width="2.4%" style="vertical-align: middle;"> 
+<a href="https://huggingface.co/OpenLemur" style="pdf"><span>Models</span></a> /
+<a href="https://www.xlang.ai/blog/openlemur" style="pdf"><span>Blog</span></a>.
+<a href="https://github.com/OpenLemur/Lemur">
+<img src="https://img.shields.io/github/stars/OpenLemur/Lemur?style=social" style="vertical-align: middle;">
+</a>
 </div><br>
 
 <div class='paper-box-text' markdown="1">
 <strong><font color="#374798">From Zero to Hero: Examining the Power of Symbolic Tasks in Instruction Tuning</font></strong>\\
 Qian Liu\*, **Fan Zhou\***, Zhengbao Jiang, Longxu Dou, Min Lin, (*=equal contribution) \\
-**(2023, Preprint)** |  [📄 <a href="https://arxiv.org/abs/2304.07995" style="pdf"><span>PDF</span></a>] | [🛠 <a href="https://github.com/sail-sg/symbolic-instruction-tuning" style="code"><span>Code</span></a>] | [🤗 <a href="https://huggingface.co/datasets/sail/symbolic-instruction-tuning" style="pdf"><span>hf datasets</span></a> & <a href="https://huggingface.co/models?search=sail/tapex-zero"><span>models</span></a>] | [![](https://img.shields.io/github/stars/sail-sg/symbolic-instruction-tuning?style=social)](https://github.com/sail-sg/symbolic-instruction-tuning)
+**Tech Report 2023** <br>
+<a href="https://arxiv.org/abs/2304.07995" style="pdf"><span>PDF</span></a> /
+<a href="https://github.com/sail-sg/symbolic-instruction-tuning" style="code"><span>Code</span></a> /
+<img src="images/huggingface_logo.svg" width="2.4%" style="vertical-align: middle;"> 
+<a href="https://huggingface.co/datasets/sail/symbolic-instruction-tuning" style="pdf"><span>Datasets</span></a> &
+<a href="https://huggingface.co/models?search=sail/tapex-zero"><span>Models</span></a> /
+<a href="https://github.com/sail-sg/symbolic-instruction-tuning">
+<img src="https://img.shields.io/github/stars/sail-sg/symbolic-instruction-tuning?style=social" style="vertical-align: middle;">
+</a>
 </div><br>
 
 <div class='paper-box-text' markdown="1">
 <strong><font color="#374798">Reflection of Thought: Inversely Eliciting Numerical Reasoning in Language Models via Solving Linear Systems</font></strong>\\
 **Fan Zhou\***, Haoyu Dong\*, Qian Liu, Zhoujun Cheng, Shi Han, Dongmei Zhang, (*=equal contribution) \\
-**NeurIPS 2022, 2nd MATH-AI Workshop** | [📄 <a href="https://arxiv.org/abs/2210.05075" style="pdf"><span>PDF</span></a>] 
+**NeurIPS 2022, 2nd MATH-AI Workshop** <br>
+<a href="https://arxiv.org/abs/2210.05075" style="pdf"><span>PDF</span></a> 
 </div><br>
  
 <div class='paper-box-text' markdown="1">
 <strong><font color="#374798">TaCube: Pre-computing Data Cubes for Answering Numerical-Reasoning Questions over Tabular Data</font></strong>\\
 **Fan Zhou**, Mengkang Hu, Haoyu Dong, Zhoujun Cheng, Fan Cheng, Shi Han, Dongmei Zhang \\
-**EMNLP 2022,** **<font color="#cc0000">Oral</font>** | [📄 <a href="https://arxiv.org/abs/2205.12682" style="pdf"><span>PDF</span></a>]
+**EMNLP 2022,** **<font color="#cc0000">Oral</font>** <br>
+<a href="https://arxiv.org/abs/2205.12682" style="pdf"><span>PDF</span></a>
 </div><br>
 
 <div class='paper-box-text' markdown="1">
 <strong><font color="#374798">Table Pre-training: A Survey on Model Architectures, Pretraining Objectives, and Downstream Tasks</font></strong>\\
 Haoyu Dong, Zhoujun Cheng, Xinyi He, Mengyu Zhou, Anda Zhou, **Fan Zhou**, Ao Liu, Shi Han, Dongmei Zhang \\
-**IJCAI 2022(survey track)** | [📄 <a href="https://arxiv.org/abs/2201.09745" style="pdf"><span>PDF</span></a>]
+**IJCAI 2022 (survey track)** <br>
+<a href="https://arxiv.org/abs/2201.09745" style="pdf"><span>PDF</span></a>
 </div><br>
 
 <div class='paper-box-text' markdown="1">
 <strong><font color="#374798">Exploring Image Regions Not Well Encoded by an INN</font></strong>\\
 Zenan Ling, **Fan Zhou**, Meng Wei, Quanshi Zhang \\
-**AISTATS 2022** | [📄 <a href="https://proceedings.mlr.press/v151/ling22a/ling22a.pdf" style="pdf"><span>PDF</span></a>]
+**AISTATS 2022** <br>
+<a href="https://proceedings.mlr.press/v151/ling22a/ling22a.pdf" style="pdf"><span>PDF</span></a>
 </div><br>
 
 <div class='paper-box-text' markdown="1">
 <strong><font color="#374798">Quantification and Analysis of Layer-wise and Pixel-wise Information Discarding</font></strong>\\
 Haotian Ma, Hao Zhang, **Fan Zhou**, Quanshi Zhang \\
-**ICML 2022** | [📄 <a href="https://proceedings.mlr.press/v162/ma22b/ma22b.pdf" style="pdf"><span>PDF</span></a>] | [🛠 <a href="https://github.com/haotianSustc/deepinfo" style="code"><span>Code</span></a>]
-</div>
+**ICML 2022** <br>
+<a href="https://proceedings.mlr.press/v162/ma22b/ma22b.pdf" style="pdf"><span>PDF</span></a> /
+<a href="https://github.com/haotianSustc/deepinfo" style="code"><span>Code</span></a>
+</div><br>
 
-# 🥑 Projects
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/openagents_overview.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
 
-[*OpenAgents*](https://github.com/xlang-ai/OpenAgents)
+# Projects
+<div class='paper-box'>
+    <div class='paper-box-image'>
+        <div><img src='images/openagents_overview.png' alt="sym" width="100%"></div>
+    </div>
+    <div class='paper-box-text' markdown="1">
+
+[**OpenAgents**](https://github.com/xlang-ai/OpenAgents) (2023) [![](https://img.shields.io/github/stars/xlang-ai/OpenAgents?style=social)](https://github.com/xlang-ai/OpenAgents)
 
 Host your own ChatGPT Plus locally!
 
-[~~**Demo**~~](https://chat.xlang.ai) | [**Paper**](https://arxiv.org/abs/2310.10634) | [**Doc**](https://docs.xlang.ai) | [![](https://img.shields.io/github/stars/xlang-ai/OpenAgents?style=social)](https://github.com/xlang-ai/OpenAgents)
-- Data Agent: code interpreter augmented with data tools
-- Plugins Agent: 200+ plugins for daily life
-- Web Agent: autonomous web browsing
+- **Data Agent**: code interpreter augmented with data tools
+- **Plugins Agent**: 200+ plugins for daily life
+- **Web Agent**: autonomous web browsing
 </div>
 </div>
 
-# 📌 Service
-
-- Workshop Reviewer: [Instruction Workshop @ NeurIPS 2023](https://an-instructive-workshop.github.io/), [MATH-AI Workshop @ NeurIPS 2024](https://mathai2024.github.io/).
-- Conference Reviewer: COLING 2024~2025, ICLR 2025
-
-# 🎲 Exeperiences
-
-**Academia**
+# Exeperiences
 
 - _2021.09 - 2024.03_, M.S.@SJTU, Computer Science & Engineering
 - _2017.09 - 2021.06_, B.S.@SJTU, IEEE honor class, Computer Science.
-
-**Others**
-
-<!-- Templates -->
-<!-- - *2024.06 - now*, AI Researcher@? -->
-<!-- - *2024.02 - 2024.0?, Research@?-->
-<!-- - *2024.02 - now*, Collaborator@? (part-time) -->
-
 - _2023.04 - 2023.12_, Research Assistant@XLang Lab, HKU. supervised by Prof. [Tao Yu](https://taoyds.github.io/).
 - _2021.10 - 2022.10_, Research Intern@Microsoft Research Asia. supervised by [Haoyu Dong](https://www.microsoft.com/en-us/research/people/hadong/).
 - _2019.05 - 2019.10_, Research Intern@Interpretable ML Lab, SJTU. supervised by Prof. [Quanshi Zhang](qszhang.com).
 
-# 🎖 Honors and Awards
+# Service and Awards
 
+- Workshop Reviewer: [Instruction Workshop @ NeurIPS 2023](https://an-instructive-workshop.github.io/), [MATH-AI Workshop @ NeurIPS 2024](https://mathai2024.github.io/).
+- Conference Reviewer: COLING 2024~2025, ICLR 2025
 - MSRA Stars of Tomorrow (Award of Excellent Intern), 2022
 - Outstanding Graduates of SJTU, 2021
 - SJTU Academic Scholarship, 2017~2020
