@@ -17,10 +17,8 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-<link
-    href="https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather:wght@700&family=Open+Sans:wght@700&family=Playfair+Display:wght@700&family=Poppins:wght@700&family=Roboto:wght@700&family=Lora:wght@700&family=Oswald:wght@700&family=Raleway:wght@700&family=Pacifico&display=swap"
-    rel="stylesheet"
->
+<link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,600,400italic,600italic,300,300italic'
+    rel='stylesheet' type='text/css'>
 <style>
 
 </style>
@@ -34,9 +32,9 @@ I've interned at [Microsoft Research Asia](https://www.microsoft.com/en-us/resea
 I am generally interested in Natural Language Processing, and try to train good models and build useful tools.
 
 Recently, I am particularly interested in:
-- Data-Centric Methods: [[ProX](https://arxiv.org/abs/2409.17115)].
+- Data-Centric Methods: ([**ProX**](https://arxiv.org/abs/2409.17115))
 - Code Generation, Understanding, and Reasoning.
-- Agentic Language Models and Applications [[OpenAgents](https://github.com/xlang-ai/OpenAgents), [Lemur](https://arxiv.org/abs/2310.06830)]
+- Agentic Language Models and Applications: ([**OpenAgents**](https://github.com/xlang-ai/OpenAgents), [**Lemur**](https://arxiv.org/abs/2310.06830))
 
 <a href='https://scholar.google.com/citations?user=qi8UzmkAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 <a href='./uploads/FZhou_Resume.pdf'><img src="https://img.shields.io/badge/-My Resumé-299DE7?logo=gitbook&logoColor=white"></a>
@@ -96,19 +94,29 @@ Recently, I am particularly interested in:
 
 <div class="scrollable-area" style="width:100%;">
     <ul>
-        <li><em>2024.09</em>: 🔥 We have release <a href="https://arxiv.org/abs/2409.17115">ProX</a>, a slm-based pre-training data refining framework.</li>
+        <li><em>2024.11</em>: 🔥 We have released <a href="https://mstar-lmm.github.io/"><strong>MStaR</strong></a>, a self-evolving training recipe for multimodal reasoning.</li>
+        <li><em>2024.09</em>: 🔥 We have release <a href="https://arxiv.org/abs/2409.17115"><strong>ProX</strong></a>, a slm-based pre-training data refining framework.</li>
         <li><em>2024.09</em>: 📄 <strong>OlympicArena</strong> paper is accepted by Neurips'24.</li>
         <li><em>2024.07</em>: 📄 <strong>OpenAgents</strong> paper is accepted by COLM'24.</li>
         <li><em>2024.05</em>: 📄 <strong>Preference Dissection</strong> paper is accepted by ACL'24.</li>
-        <li><em>2024.01</em>: 📄 Our <strong>Lemur</strong> paper(Agent Model) is accepted by ICLR'24 (<font color="#cc0000">Spotlight</font>, 5%).</li>  
+        <li><em>2024.01</em>: 📄 Our <strong>Lemur</strong> paper(Agent Model) is accepted by ICLR'24 (<strong><font color="#cc0000">Spotlight</font></strong>, 5%).</li>  
         <li><em>2023.10</em>: 🔥 We've built <a href="https://github.com/xlang-ai/OpenAgents">OpenAgents</a>, an open platform for language agents in the wild!</li>  
         <li><em>2023.10</em>: 🙋 We have released <a href="https://arxiv.org/abs/2310.06830">Lemur-70B</a>, an agentic language model based on LLama-2!</li>  
         <li><em>2023.04</em>: 🔥 New <a href="https://arxiv.org/abs/2304.07995">preprint</a> applying <strong>symbolic tasks</strong> in <strong>instruction tuning</strong></li>  
-        <li><em>2022.10</em>: 📄 Our <strong>TaCube</strong> paper(Table QA) is accepted by EMNLP'22 (<font color="#cc0000">Oral</font> Presentation).</li>  
+        <li><em>2022.10</em>: 📄 Our <strong>TaCube</strong> paper(Table QA) is accepted by EMNLP'22 (<strong><font color="#cc0000">Oral</font></strong> Presentation).</li>  
     </ul>  
 </div>
 
 # Publications
+
+<div class='paper-box-text' markdown="1">
+<strong><font color="#374798">Diving into Self-Evolving Training for Multimodal Reasoning</font></strong>\\
+Wei Liu\*, Junlong Li\*, Xiwen Zhang, **Fan Zhou**, Yu Cheng, Junxian He, (*=equal contribution) \\
+**2024, Project**. <br>
+<a href="https://mstar-lmm.github.io/" style="code"><span>Project Page</span></a>
+</div>
+<span>A self-evolving training recipe for multimodal reasoning.</span>
+<br><br>
 
 <div class='paper-box-text' markdown="1">
 <strong><font color="#374798">Programming Every Example: Lifting Pre-training Data Quality like Experts at Scale</font></strong>\\
@@ -116,15 +124,15 @@ Recently, I am particularly interested in:
 **2024, Preprint**. <br>
 <a href="https://arxiv.org/abs/2409.17115" style="pdf"><span>PDF</span></a> / 
 <a href="https://github.com/GAIR-NLP/ProX" style="code"><span>Code</span></a> / 
-<img src="images/huggingface_logo.svg" width="2.4%" style="vertical-align: middle;"> 
+<img src="images/huggingface_logo.svg" width=23em style="vertical-align: middle;"> 
 <a href="https://huggingface.co/gair-prox" style="pdf"><span>Dataset</span>,</a>
-<span>**<font color="#cc0000">>5K Downloads, >100B Tokens</font>**</span> / 
-<a href="https://gair-nlp.github.io/ProX" style="pdf"><span>Page</span></a> / 
+<span>**<font color="#cc0000">>5K Downloads</font>**</span> / 
+<a href="https://gair-nlp.github.io/ProX" style="pdf"><span>Project Page</span></a> / 
 <a href="https://github.com/GAIR-NLP/ProX">
 <img src="https://img.shields.io/github/stars/GAIR-NLP/ProX?style=social" style="vertical-align: middle;"> \\
 </a>
 </div>
-<span>Small-LLM-based Pre-training Data Refining Framework via Seamless Program Generation.</span> 
+<span>A small-LLM-based pre-training data refining framework via seamless program generation, with **<font color="#cc0000">>100B Tokens of High-quality Data</font>** released.</span> 
 <br><br>
 
 <div class='paper-box-text' markdown="1">
@@ -133,14 +141,14 @@ Zhen Huang, Zengzhi Wang, Shijie Xia, Xuefeng Li, Haoyang Zou, Ruijie Xu, Run-Ze
 **Neurips 2024 (DB track)** <br>
 <a href="https://arxiv.org/abs/2406.12753" style="pdf"><span>PDF</span></a> /
 <a href="https://github.com/GAIR-NLP/OlympicArena" style="code"><span>Code</span></a> /
-<img src="images/huggingface_logo.svg" width="2.4%" style="vertical-align: middle;"> 
+<img src="images/huggingface_logo.svg" width=23em style="vertical-align: middle;"> 
 <a href="https://huggingface.co/datasets/GAIR/OlympicArena" style="pdf"><span>Datasets</span></a> /
-<a href="https://gair-nlp.github.io/OlympicArena/" style="pdf"><span>Page</span></a> /
+<a href="https://gair-nlp.github.io/OlympicArena/" style="pdf"><span>Project Page</span></a> /
 <a href="https://github.com/GAIR-NLP/OlympicArena">
 <img src="https://img.shields.io/github/stars/GAIR-NLP/OlympicArena?style=social" style="vertical-align: middle;"> \\
 </a>
 </div>
-<span>A Challenging Multi-Modal Olympic Competition Benchmark for LLMs and LVMs.</span> 
+<span>A challenging multi-modal olympic competition benchmark for LLMs and LVMs.</span> 
 <br><br>
 
 <div class='paper-box-text' markdown="1">
@@ -149,13 +157,13 @@ Junlong Li, **Fan Zhou**, Shichao Sun, Yikai Zhang, Hai Zhao, Pengfei Liu \\
 **ACL 2024** <br>
 <a href="https://arxiv.org/abs/2402.11296" style="pdf"><span>PDF</span></a> /
 <a href="https://github.com/GAIR-NLP/Preference-Dissection" style="code"><span>Code</span></a> /
-<img src="images/huggingface_logo.svg" width="2.4%" style="vertical-align: middle;"> 
+<img src="images/huggingface_logo.svg" width=23em style="vertical-align: middle;"> 
 <a href="https://huggingface.co/datasets/GAIR/Preference-Dissection" style="pdf"><span>Datasets</span></a> /
 <a href="https://github.com/GAIR-NLP/Preference-Dissection">
 <img src="https://img.shields.io/github/stars/GAIR-NLP/Preference-Dissection?style=social" style="vertical-align: middle;"> \\
 </a>
 </div>
-<span>Disentangling Prefered and Dispreferred Features of LLM Responses.</span> 
+<span>Disentangling preferred and dispreferred features of LLM responses.</span> 
 <br><br>
 
 <div class='paper-box-text' markdown="1">
@@ -179,13 +187,15 @@ Yiheng Xu\*, Hongjin Su\*, Chen Xing\*, Boyu Mi, Qian Liu, Weijia Shi, Binyuan H
 **ICLR 2024,** **<font color="#cc0000">Spotlight</font>** <br>
 <a href="https://arxiv.org/abs/2310.06830" style="pdf"><span>PDF</span></a> /
 <a href="https://github.com/OpenLemur/Lemur" style="code"><span>Code</span></a> /
-<img src="images/huggingface_logo.svg" width="2.4%" style="vertical-align: middle;"> 
+<img src="images/huggingface_logo.svg" width=23em style="vertical-align: middle;"> 
 <a href="https://huggingface.co/OpenLemur" style="pdf"><span>Models</span></a> /
-<a href="https://www.xlang.ai/blog/openlemur" style="pdf"><span>Blog</span></a>.
+<a href="https://www.xlang.ai/blog/openlemur" style="pdf"><span>Blog</span></a>
 <a href="https://github.com/OpenLemur/Lemur">
-<img src="https://img.shields.io/github/stars/OpenLemur/Lemur?style=social" style="vertical-align: middle;">
+<img src="https://img.shields.io/github/stars/OpenLemur/Lemur?style=social" style="vertical-align: middle;"> \\
 </a>
-</div><br>
+</div>
+<span>A 70B agent model pre-trained with balanced code-text corpora, compatible with GPT-3.5.</span>
+<br><br>
 
 <div class='paper-box-text' markdown="1">
 <strong><font color="#374798">From Zero to Hero: Examining the Power of Symbolic Tasks in Instruction Tuning</font></strong>\\
@@ -193,49 +203,66 @@ Qian Liu\*, **Fan Zhou\***, Zhengbao Jiang, Longxu Dou, Min Lin, (*=equal contri
 **Tech Report 2023** <br>
 <a href="https://arxiv.org/abs/2304.07995" style="pdf"><span>PDF</span></a> /
 <a href="https://github.com/sail-sg/symbolic-instruction-tuning" style="code"><span>Code</span></a> /
-<img src="images/huggingface_logo.svg" width="2.4%" style="vertical-align: middle;"> 
+<img src="images/huggingface_logo.svg" width=23em style="vertical-align: middle;"> 
 <a href="https://huggingface.co/datasets/sail/symbolic-instruction-tuning" style="pdf"><span>Datasets</span></a> &
 <a href="https://huggingface.co/models?search=sail/tapex-zero"><span>Models</span></a> /
 <a href="https://github.com/sail-sg/symbolic-instruction-tuning">
-<img src="https://img.shields.io/github/stars/sail-sg/symbolic-instruction-tuning?style=social" style="vertical-align: middle;">
+<img src="https://img.shields.io/github/stars/sail-sg/symbolic-instruction-tuning?style=social" style="vertical-align: middle;"> \\
 </a>
-</div><br>
+</div>
+<span>A symbolic and synthetic method for improving instruction tuning.</span> 
+<br><br>
 
 <div class='paper-box-text' markdown="1">
 <strong><font color="#374798">Reflection of Thought: Inversely Eliciting Numerical Reasoning in Language Models via Solving Linear Systems</font></strong>\\
 **Fan Zhou\***, Haoyu Dong\*, Qian Liu, Zhoujun Cheng, Shi Han, Dongmei Zhang, (*=equal contribution) \\
 **NeurIPS 2022, 2nd MATH-AI Workshop** <br>
-<a href="https://arxiv.org/abs/2210.05075" style="pdf"><span>PDF</span></a> 
-</div><br>
+<a href="https://arxiv.org/abs/2210.05075" style="pdf"><span>PDF</span> \\
+</a>
+</div>
+<span>Inference time calibration for LLM-based numerical reasoning.</span> 
+<br><br>
  
 <div class='paper-box-text' markdown="1">
 <strong><font color="#374798">TaCube: Pre-computing Data Cubes for Answering Numerical-Reasoning Questions over Tabular Data</font></strong>\\
 **Fan Zhou**, Mengkang Hu, Haoyu Dong, Zhoujun Cheng, Fan Cheng, Shi Han, Dongmei Zhang \\
 **EMNLP 2022,** **<font color="#cc0000">Oral</font>** <br>
-<a href="https://arxiv.org/abs/2205.12682" style="pdf"><span>PDF</span></a>
-</div><br>
+<a href="https://arxiv.org/abs/2205.12682" style="pdf"><span>PDF</span> \\
+</a>
+</div>
+<span>Pre-computing aggregation/arithmetic results to assist table numerical reasoning.</span> 
+<br><br>
 
 <div class='paper-box-text' markdown="1">
 <strong><font color="#374798">Table Pre-training: A Survey on Model Architectures, Pretraining Objectives, and Downstream Tasks</font></strong>\\
 Haoyu Dong, Zhoujun Cheng, Xinyi He, Mengyu Zhou, Anda Zhou, **Fan Zhou**, Ao Liu, Shi Han, Dongmei Zhang \\
 **IJCAI 2022 (survey track)** <br>
-<a href="https://arxiv.org/abs/2201.09745" style="pdf"><span>PDF</span></a>
-</div><br>
+<a href="https://arxiv.org/abs/2201.09745" style="pdf"><span>PDF</span> \\
+</a>
+</div>
+<span>A survey on various tabular models, especially on the pretrained transformers.</span> 
+<br><br>
 
 <div class='paper-box-text' markdown="1">
 <strong><font color="#374798">Exploring Image Regions Not Well Encoded by an INN</font></strong>\\
 Zenan Ling, **Fan Zhou**, Meng Wei, Quanshi Zhang \\
 **AISTATS 2022** <br>
-<a href="https://proceedings.mlr.press/v151/ling22a/ling22a.pdf" style="pdf"><span>PDF</span></a>
-</div><br>
+<a href="https://proceedings.mlr.press/v151/ling22a/ling22a.pdf" style="pdf"><span>PDF</span> \\
+</a>
+</div>
+<span>An analysis on the normalizing flow's generation flaws.</span> 
+<br><br>
 
 <div class='paper-box-text' markdown="1">
 <strong><font color="#374798">Quantification and Analysis of Layer-wise and Pixel-wise Information Discarding</font></strong>\\
 Haotian Ma, Hao Zhang, **Fan Zhou**, Quanshi Zhang \\
 **ICML 2022** <br>
 <a href="https://proceedings.mlr.press/v162/ma22b/ma22b.pdf" style="pdf"><span>PDF</span></a> /
-<a href="https://github.com/haotianSustc/deepinfo" style="code"><span>Code</span></a>
-</div><br>
+<a href="https://github.com/haotianSustc/deepinfo" style="code"><span>Code</span> \\
+</a>
+</div>
+<span>A quantitative analysis of CNNs.</span> 
+<br><br>
 
 
 # Projects
@@ -257,17 +284,14 @@ Host your own ChatGPT Plus locally!
 
 # Exeperiences
 
-- _2021.09 - 2024.03_, M.S.@SJTU, Computer Science & Engineering
-- _2017.09 - 2021.06_, B.S.@SJTU, IEEE honor class, Computer Science.
-- _2023.04 - 2023.12_, Research Assistant@XLang Lab, HKU. supervised by Prof. [Tao Yu](https://taoyds.github.io/).
-- _2021.10 - 2022.10_, Research Intern@Microsoft Research Asia. supervised by [Haoyu Dong](https://www.microsoft.com/en-us/research/people/hadong/).
-- _2019.05 - 2019.10_, Research Intern@Interpretable ML Lab, SJTU. supervised by Prof. [Quanshi Zhang](qszhang.com).
+- <img src="images/education.png" width=18em style="vertical-align: middle;"> _2021.09 - 2024.03_, M.S.@SJTU, Computer Science.
+- <img src="images/education.png" width=18em style="vertical-align: middle;"> _2017.09 - 2021.06_, B.S.@SJTU, IEEE honor class, Computer Science.
 
 # Service and Awards
 
-- Workshop Reviewer: [Instruction Workshop @ NeurIPS 2023](https://an-instructive-workshop.github.io/), [MATH-AI Workshop @ NeurIPS 2024](https://mathai2024.github.io/).
-- Conference Reviewer: COLING 2024~2025, ICLR 2025
+- Reviewer: COLING 2024~2025, ICLR 2025, [Instruction Workshop @ NeurIPS 2023](https://an-instructive-workshop.github.io/), [MATH-AI Workshop @ NeurIPS 2024](https://mathai2024.github.io/)
+- Teaching Assistant: Introduction to Programming (2021), [Large Language Models](https://gair-nlp.github.io/cs2916/) (CS2916, 2024)
 - MSRA Stars of Tomorrow (Award of Excellent Intern), 2022
 - Outstanding Graduates of SJTU, 2021
-- SJTU Academic Scholarship, 2017~2020
+<!-- - SJTU Academic Scholarship, 2017~2020 -->
 - Shanghai City Scholarship(≈top 5%), 2018
