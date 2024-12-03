@@ -94,8 +94,9 @@ Recently, I am particularly interested in:
 
 <div class="scrollable-area" style="width:100%;">
     <ul>
+        <li><em>2024.12</em>: 🔥 Enjoy <a href="https://sea-sailor.github.io/blog/sailor2/"><strong>Sailor2</strong></a>, a state-of-the-art language model family for south-east asia.</li>
         <li><em>2024.11</em>: 🔥 We have released <a href="https://mstar-lmm.github.io/"><strong>MStaR</strong></a>, a self-evolving training recipe for multimodal reasoning.</li>
-        <li><em>2024.09</em>: 🔥 We have release <a href="https://arxiv.org/abs/2409.17115"><strong>ProX</strong></a>, a slm-based pre-training data refining framework.</li>
+        <li><em>2024.09</em>: 🔥 We have released <a href="https://arxiv.org/abs/2409.17115"><strong>ProX</strong></a>, a small-LM-based pre-training data refining framework!</li>
         <li><em>2024.09</em>: 📄 <strong>OlympicArena</strong> paper is accepted by Neurips'24.</li>
         <li><em>2024.07</em>: 📄 <strong>OpenAgents</strong> paper is accepted by COLM'24.</li>
         <li><em>2024.05</em>: 📄 <strong>Preference Dissection</strong> paper is accepted by ACL'24.</li>
@@ -108,6 +109,23 @@ Recently, I am particularly interested in:
 </div>
 
 # Publications
+
+<div class='paper-box-text' markdown="1">
+<strong><font color="#374798">Sailor2: Sailing in South-East Asia with Inclusive Multilingual LLMs</font></strong>\\
+**2024, Project**. <br>
+<a href="https://sea-sailor.github.io/blog/sailor2/" style="code"><span>Blog</span></a> /
+<a href="https://github.com/sail-sg/sailor2" style="code"><span>Code</span></a> /
+<img src="images/huggingface_logo.svg" width=23em style="vertical-align: middle;"> 
+<a href="https://huggingface.co/collections/sailor2/sailor2-models-674d472668f3816be3f231bc" style="pdf"><span>Models</span></a> /
+<a href="https://huggingface.co/collections/sailor2/sailor2-pre-training-datasets-674d473b3a4b7e31a1722913" style="pdf"><span>Pre-training Datasets</span></a> /
+<a href="https://huggingface.co/collections/sailor2/sailor2-post-training-datasets-674f0661d8b3e255ec6638d8" style="pdf"><span>Post-training Datasets</span></a> /
+<a href="https://x.com/sivil_taram/status/1863989432170484008" style="code"><span>X Thread</span></a> /
+<a href="https://github.com/sail-sg/sailor2">
+<img src="https://img.shields.io/github/stars/sail-sg/sailor2?style=social" style="vertical-align: middle;"> \\
+</a>
+</div>
+<span>An open state-of-the-art language model family for south-east asia languages, continually trained on Qwen-2.5.</span>
+<br><br>
 
 <div class='paper-box-text' markdown="1">
 <strong><font color="#374798">Diving into Self-Evolving Training for Multimodal Reasoning</font></strong>\\
@@ -210,7 +228,7 @@ Qian Liu\*, **Fan Zhou\***, Zhengbao Jiang, Longxu Dou, Min Lin, (*=equal contri
 <img src="https://img.shields.io/github/stars/sail-sg/symbolic-instruction-tuning?style=social" style="vertical-align: middle;"> \\
 </a>
 </div>
-<span>A symbolic and synthetic method for improving instruction tuning.</span> 
+<span>A symbolic and synthetic method for improving LM instruction tuning.</span> 
 <br><br>
 
 <div class='paper-box-text' markdown="1">
