@@ -32,8 +32,8 @@ I've interned at [Microsoft Research Asia](https://www.microsoft.com/en-us/resea
 I am generally interested in Natural Language Processing, and try to train good models and build useful tools.
 
 Recently, I am particularly interested in:
-- Data-Centric Methods: ([**ProX**](https://arxiv.org/abs/2409.17115))
-- Code Generation, Understanding, and Reasoning.
+- Data-Centric Methods and Foundation Model Development: ([**ProX**](https://arxiv.org/abs/2409.17115), [**Sailor2**](https://sea-sailor.github.io/blog/sailor2/))
+- Code Generation, Understanding, and Everything related to Reasoning ([**MSTaR**](https://arxiv.org/abs/2412.17451))
 - Agentic Language Models and Applications: ([**OpenAgents**](https://github.com/xlang-ai/OpenAgents), [**Lemur**](https://arxiv.org/abs/2310.06830))
 
 <a href='https://scholar.google.com/citations?user=qi8UzmkAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
@@ -130,10 +130,17 @@ Recently, I am particularly interested in:
 <div class='paper-box-text' markdown="1">
 <strong><font color="#374798">Diving into Self-Evolving Training for Multimodal Reasoning</font></strong>\\
 Wei Liu\*, Junlong Li\*, Xiwen Zhang, **Fan Zhou**, Yu Cheng, Junxian He, (*=equal contribution) \\
-**2024, Project**. <br>
-<a href="https://mstar-lmm.github.io/" style="code"><span>Project Page</span></a>
+**2024, Preprint**. <br>
+<a href="https://arxiv.org/abs/2412.17451" style="pdf"><span>PDF</span></a> / 
+<a href="https://github.com/hkust-nlp/mstar" style="code"><span>Code</span></a> / 
+<img src="images/huggingface_logo.svg" width=23em style="vertical-align: middle;"> 
+<a href="https://huggingface.co/collections/hkust-nlp/m-star-676bbf9f749dbf511e7c4a32" style="pdf"><span>Resources</span></a> /
+<a href="https://mstar-lmm.github.io/" style="code"><span>Project Page</span></a> /
+<a href="https://github.com/hkust-nlp/mstar">
+<img src="https://img.shields.io/github/stars/hkust-nlp/mstar?style=social" style="vertical-align: middle;"> \\
+</a>
 </div>
-<span>A self-evolving training recipe for multimodal reasoning.</span>
+<span>A self-evolving training recipe for multimodal reasoning, M-STaR.</span>
 <br><br>
 
 <div class='paper-box-text' markdown="1">
