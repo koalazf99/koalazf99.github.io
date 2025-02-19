@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Fan Zhou's Homapage"
+title                    : "Fan Zhou | Shanghai Jiao Tong University"
 description              : "Cooking with LLMs"
 repository               : "koalazf99/koalazf99.github.io"
 google_scholar_stats_use_cdn : true
