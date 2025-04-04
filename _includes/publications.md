@@ -17,6 +17,22 @@
   <span id="fullHeader" onclick="filterPubs('full')">Full</span>
 </h1>
 
+<div class="paper-box-text" data-selected="true" markdown="1">
+<strong><font color="#374798">MegaMath: Pushing the Limits of Open Math Corpora</font></strong>\\
+**Fan Zhou\***, Zengzhi Wang\*, Nikhil Ranjan, Zhoujun Cheng, Liping Tang, Guowei He, Zhengzhong Liu, Eric P. Xing \\
+**2025, Preprint**. <br>
+<a href="https://arxiv.org/abs/2504.02807" style="pdf"><span>PDF</span></a> / 
+<a href="https://github.com/LLM360/MegaMath" style="code"><span>Code</span></a> / 
+<img src="images/huggingface_logo.svg" width=23em style="vertical-align: middle;"> 
+<a href="https://huggingface.co/datasets/LLM360/MegaMath" style="pdf"><span>Dataset</span></a> /
+<a href="https://github.com/LLM360/MegaMath">
+<img src="https://img.shields.io/github/stars/LLM360/MegaMath?style=social" style="vertical-align: middle;"> \\
+</a>
+<span>The largest open math pre-training dataset with 370B tokens.</span>
+<br>
+<br>
+</div>
+
 
 <div class="paper-box-text" data-selected="true" markdown="1">
 <strong><font color="#374798">Sailor2: Sailing in South-East Asia with Inclusive Multilingual LLMs</font></strong>\\

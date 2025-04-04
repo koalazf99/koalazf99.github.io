@@ -88,6 +88,7 @@ Recently, I am particularly interested in:
 
 <div class="scrollable-area" style="width:100%;">
     <ul>
+        <li><em>2025.04</em>: 🔥 We release <strong>MegaMath</strong>, the largest math pre-training dataset to date containing 370B tokens.</li>
         <li><em>2024.12</em>: 🔥 Enjoy <a href="https://sea-sailor.github.io/blog/sailor2/"><strong>Sailor2</strong></a>, a state-of-the-art language model family for south-east asia.</li>
         <li><em>2024.11</em>: 🔥 We have released <a href="https://mstar-lmm.github.io/"><strong>MStaR</strong></a>, a self-evolving training recipe for multimodal reasoning.</li>
         <li><em>2024.09</em>: 🔥 We have released <a href="https://arxiv.org/abs/2409.17115"><strong>ProX</strong></a>, a small-LM-based pre-training data refining framework!</li>
@@ -135,7 +136,7 @@ Host your own ChatGPT Plus locally!
 
 # Service and Awards
 
-- Reviewer: COLING, ICLR, COLM, IJCAI, NeurIPS...
+- Reviewer: ICLR, NeurIPS, COLM, ACL, IJCAI, COLING, ...
 <!-- [Instruction Workshop @ NeurIPS 2023](https://an-instructive-workshop.github.io/), [MATH-AI Workshop @ NeurIPS 2024](https://mathai2024.github.io/) -->
 <!-- - TA: Introduction to Programming (2021), [Large Language Models](https://gair-nlp.github.io/cs2916/) (CS2916, 2024) -->
 - MSRA: Award of Excellent Intern, 2022
