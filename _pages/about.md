@@ -32,7 +32,7 @@ I've interned at [Microsoft Research Asia](https://www.microsoft.com/en-us/resea
 I am generally interested in Natural Language Processing, and try to train good models and build useful tools.
 
 Recently, I am particularly interested in:
-- Data-Centric Methods and Foundation Model Development: ([**ProX**](https://arxiv.org/abs/2409.17115), [**Sailor2**](https://sea-sailor.github.io/blog/sailor2/))
+- Data-Centric Methods and Foundation Model Development: ([**MegaMath**](https://arxiv.org/abs/2504.02807), [**ProX**](https://arxiv.org/abs/2409.17115), [**Sailor2**](https://sea-sailor.github.io/blog/sailor2/))
 - Code Generation, Understanding, and Everything related to Reasoning ([**MSTaR**](https://arxiv.org/abs/2412.17451))
 - Agentic Language Models and Applications: ([**OpenAgents**](https://github.com/xlang-ai/OpenAgents), [**Lemur**](https://arxiv.org/abs/2310.06830))
 
