@@ -23,17 +23,16 @@ redirect_from:
 
 </style>
 # 🐨 About Me
-I am Fan Zhou, currently doing AI research at [GAIR Lab](https://plms.ai) (2024 -- Now) mentored by Prof. [Pengfei Liu](http://pfliu.com/).
+I am Fan Zhou, currently a PhD student advised by Prof. [Pengfei Liu](http://pfliu.com/).
 
 Previously, I obtained my Master Degree, and Bachelor Degree (IEEE honor class) at [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/) (SJTU), major in computer science.
 I've interned at [Microsoft Research Asia](https://www.microsoft.com/en-us/research/group/data-knowledge-intelligence/) (2021-2022), [XLang Lab](https://xlang.ai/)@[HKUNLP](https://hkunlp.github.io/) (2023), where I spent wonderful times with my mentors and colleagues, and made some good friends.
 
 ## Research Interests
-I am generally interested in Natural Language Processing, and try to train good models and build useful tools.
-
-Recently, I am particularly interested in:
+I try to build useful tools and train performant models towards the goal of powerful and general-purpose AI.
+Recently, I am particularly interested in the following topics, and develop several scalable methods for them:
 - Data-Centric Methods and Foundation Model Development: ([**MegaMath**](https://arxiv.org/abs/2504.02807), [**ProX**](https://arxiv.org/abs/2409.17115), [**Sailor2**](https://sea-sailor.github.io/blog/sailor2/))
-- Code Generation, Understanding, and Everything related to Reasoning ([**MSTaR**](https://arxiv.org/abs/2412.17451))
+- Code Generation, Understanding, and Everything related to Reasoning ([**MSTaR**](https://arxiv.org/abs/2412.17451), [**OctoThinker**](https://natural-rugby-f7c.notion.site/OctoThinker-Revisiting-Mid-Training-1d20b810e2d680c494a9f9dad0a90d53))
 - Agentic Language Models and Applications: ([**OpenAgents**](https://github.com/xlang-ai/OpenAgents), [**Lemur**](https://arxiv.org/abs/2310.06830))
 
 <!-- <a href='https://scholar.google.com/citations?user=qi8UzmkAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
@@ -88,6 +87,8 @@ Recently, I am particularly interested in:
 
 <div class="scrollable-area" style="width:100%;">
     <ul>
+        <li><em>2025.05</em>: 📄 <strong>ProX</strong> and <strong>MSTaR</strong> paper are accepted by ICML'25.</li>
+        <li><em>2025.04</em>: 🔥 Say hi to <strong>OctoThinker</strong>, a mid-training ablation study in the era of RL scaling.</li>
         <li><em>2025.04</em>: 🔥 We release <strong>MegaMath</strong>, the largest math pre-training dataset to date containing 370B tokens.</li>
         <li><em>2024.12</em>: 🔥 Enjoy <a href="https://sea-sailor.github.io/blog/sailor2/"><strong>Sailor2</strong></a>, a state-of-the-art language model family for south-east asia.</li>
         <li><em>2024.11</em>: 🔥 We have released <a href="https://mstar-lmm.github.io/"><strong>MStaR</strong></a>, a self-evolving training recipe for multimodal reasoning.</li>

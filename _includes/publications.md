@@ -12,10 +12,41 @@
 <div id="publications">
 
 <!-- 标题区域，使用 h1 实现 Markdown 的 # 标题效果 -->
+
 <h1 class="publication-header">
   <span id="selectedHeader" class="active" onclick="filterPubs('selected')">📖 Selected Publications</span> |
   <span id="fullHeader" onclick="filterPubs('full')">Full</span>
 </h1>
+
+<div class="paper-box-text" data-selected="true" markdown="1">
+<strong><font color="#374798">OctoThinker: Revisiting Mid-Training In the Era of RL Scaling</font></strong>\\
+Zengzhi Wang\*, **Fan Zhou\***, Xuefeng Li, Pengfei Liu \\
+**2025, Blog**. <br>
+<a href="https://natural-rugby-f7c.notion.site/OctoThinker-Revisiting-Mid-Training-1d20b810e2d680c494a9f9dad0a90d53" style="pdf"><span>Blog</span></a> / 
+<a href="https://github.com/GAIR-NLP/OctoThinker" style="code"><span>Code</span></a> / 
+<img src="images/huggingface_logo.svg" width=23em style="vertical-align: middle;"> 
+<a href="https://huggingface.co/OctoThinker" style="pdf"><span>Resources</span></a> /
+<a href="https://github.com/GAIR-NLP/OctoThinker">
+<img src="https://img.shields.io/github/stars/GAIR-NLP/OctoThinker?style=social" style="vertical-align: middle;"> \\
+</a>
+<span>A mid-training ablation study in the era of RL scaling.</span>
+<br>
+<br>
+</div>
+
+<div class="paper-box-text" data-selected="false" markdown="1">
+<strong><font color="#374798">Generative AI Act II: Test Time Scaling Drives Cognition Engineering</font></strong>\\
+Shijie Xia, Yiwei Qin, Xuefeng Li, Yan Ma, Run-Ze Fan, Steffi Chern, Haoyang Zou, **Fan Zhou**, Xiangkun Hu, Jiahe Jin, Yanheng He, Yixin Ye, Yixiu Liu, Pengfei Liu \\
+**2025, Preprint**. <br>
+<a href="https://arxiv.org/abs/2504.13828" style="pdf"><span>PDF</span></a> / 
+<a href="https://github.com/GAIR-NLP/cognition-engineering" style="code"><span>Code</span></a> / 
+<a href="https://github.com/GAIR-NLP/cognition-engineering">
+<img src="https://img.shields.io/github/stars/GAIR-NLP/cognition-engineering?style=social" style="vertical-align: middle;"> \\
+</a>
+<span>A survey on Test Time Scaling.</span>
+<br>
+<br>
+</div>
 
 <div class="paper-box-text" data-selected="true" markdown="1">
 <strong><font color="#374798">MegaMath: Pushing the Limits of Open Math Corpora</font></strong>\\
@@ -75,7 +106,7 @@ Tianyu Pang, Chao Du, Wei Lu, Min Lin (*=equal contribution)
 <div class="paper-box-text" data-selected="false" markdown="1">
 <strong><font color="#374798">Diving into Self-Evolving Training for Multimodal Reasoning</font></strong>\\
 Wei Liu\*, Junlong Li\*, Xiwen Zhang, **Fan Zhou**, Yu Cheng, Junxian He, (*=equal contribution) \\
-**2024, Preprint**. <br>
+**ICML 2025** <br>
 <a href="https://arxiv.org/abs/2412.17451" style="pdf"><span>PDF</span></a> / 
 <a href="https://github.com/hkust-nlp/mstar" style="code"><span>Code</span></a> / 
 <img src="images/huggingface_logo.svg" width=23em style="vertical-align: middle;"> 
@@ -92,7 +123,7 @@ Wei Liu\*, Junlong Li\*, Xiwen Zhang, **Fan Zhou**, Yu Cheng, Junxian He, (*=equ
 <div class="paper-box-text" data-selected="true" markdown="1">
 <strong><font color="#374798">Programming Every Example: Lifting Pre-training Data Quality like Experts at Scale</font></strong>\\
 **Fan Zhou\***, Zengzhi Wang\*, Qian Liu, Junlong Li, Pengfei Liu, (*=equal contribution) \\
-**2024, Preprint**. <br>
+**ICML 2025** <br>
 <a href="https://arxiv.org/abs/2409.17115" style="pdf"><span>PDF</span></a> / 
 <a href="https://github.com/GAIR-NLP/ProX" style="code"><span>Code</span></a> / 
 <img src="images/huggingface_logo.svg" width=23em style="vertical-align: middle;"> 
