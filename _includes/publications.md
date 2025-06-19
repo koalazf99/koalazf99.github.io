@@ -14,12 +14,49 @@
 <!-- 标题区域，使用 h1 实现 Markdown 的 # 标题效果 -->
 
 <h1 class="publication-header">
-  <span id="selectedHeader" class="active" onclick="filterPubs('selected')">📖 Selected Publications</span> |
-  <span id="fullHeader" onclick="filterPubs('full')">Full</span>
+  <span id="selectedHeader" class="active" onclick="filterPubs('selected')">📖 [Selected Publications]</span> |
+  <span id="fullHeader" onclick="filterPubs('full')">[Full Publications]</span>
 </h1>
 
 <div class="paper-box-text" data-selected="true" markdown="1">
-<strong><font color="#374798">OctoThinker: Revisiting Mid-Training In the Era of RL Scaling</font></strong>\\
+<strong><font color="#374798">Revisiting Reinforcement Learning for LLM Reasoning from A Cross-Domain Perspective</font></strong>\\
+Zhoujun Cheng\*, Shibo Hao\*, Tianyang Liu\*, **Fan Zhou**, Feng Yao, Yuexin Bian, Yutao Xie, 
+<span id="authorsCollapsed">... , </span>
+<span id="authorsExpanded" style="display: none;">
+Nilabjo Dey, Yonghao Zhuang, Yuheng Zha, Yi Gu, Kun Zhou, Yuqi Wang, Yuan Li, Richard Fan, Jianshu She, Chengqian Gao, Abulhair Saparov, Taylor W. Killian, Haonan Li, Mikhail Yurochkin, Eric P. Xing, 
+</span>
+Zhengzhong Liu, Zhiting Hu (*=equal contribution)
+<a href="#" onclick="
+      var a = document.getElementById('authorsExpanded');
+      var c = document.getElementById('authorsCollapsed');
+      if(a.style.display==='none'){
+         a.style.display='inline';
+         c.style.display='none';
+         this.innerText='[less authors]';
+      } else {
+         a.style.display='none';
+         c.style.display='inline';
+         this.innerText='[more authors]';
+      }
+      return false;
+    ">
+[more authors]
+</a> \\
+**2025, Preprint**. <br>
+<a href="https://www.arxiv.org/abs/2506.14965" style="pdf"><span>PDF</span></a> / 
+<a href="https://github.com/LLM360/Reasoning360" style="code"><span>Code</span></a> / 
+<img src="images/huggingface_logo.svg" width=23em style="vertical-align: middle;"> 
+<a href="https://huggingface.co/datasets/LLM360/guru-RL-92k" style="pdf"><span>Dataset</span></a> /
+<a href="https://github.com/LLM360/Reasoning360">
+<img src="https://img.shields.io/github/stars/LLM360/Reasoning360?style=social" style="vertical-align: middle;"> \\
+</a>
+<span>GURU: An open RL suite for developing general-purpose reasoning models.</span>
+<br>
+<br>
+</div>
+
+<div class="paper-box-text" data-selected="true" markdown="1">
+<strong><font color="#374798">OctoThinker: Mid-Training Incentivizes RL Scaling</font></strong>\\
 Zengzhi Wang\*, **Fan Zhou\***, Xuefeng Li, Pengfei Liu \\
 **2025, Blog**. <br>
 <a href="https://natural-rugby-f7c.notion.site/OctoThinker-Revisiting-Mid-Training-1d20b810e2d680c494a9f9dad0a90d53" style="pdf"><span>Blog</span></a> / 
@@ -55,7 +92,8 @@ Shijie Xia, Yiwei Qin, Xuefeng Li, Yan Ma, Run-Ze Fan, Steffi Chern, Haoyang Zou
 <a href="https://arxiv.org/abs/2504.02807" style="pdf"><span>PDF</span></a> / 
 <a href="https://github.com/LLM360/MegaMath" style="code"><span>Code</span></a> / 
 <img src="images/huggingface_logo.svg" width=23em style="vertical-align: middle;"> 
-<a href="https://huggingface.co/datasets/LLM360/MegaMath" style="pdf"><span>Dataset</span></a> /
+<a href="https://huggingface.co/datasets/LLM360/MegaMath" style="pdf"><span>Dataset</span></a>
+<span>**<font color="#cc0000">(>70K Downloads, >350B Tokens)</font>**</span> / 
 <a href="https://github.com/LLM360/MegaMath">
 <img src="https://img.shields.io/github/stars/LLM360/MegaMath?style=social" style="vertical-align: middle;"> \\
 </a>
@@ -232,7 +270,7 @@ Qian Liu\*, **Fan Zhou\***, Zhengbao Jiang, Longxu Dou, Min Lin, (*=equal contri
 <br>
 </div>
  
-<div class="paper-box-text" data-selected="true" markdown="1">
+<div class="paper-box-text" data-selected="false" markdown="1">
 <strong><font color="#374798">TaCube: Pre-computing Data Cubes for Answering Numerical-Reasoning Questions over Tabular Data</font></strong>\\
 **Fan Zhou**, Mengkang Hu, Haoyu Dong, Zhoujun Cheng, Fan Cheng, Shi Han, Dongmei Zhang \\
 **EMNLP 2022,** **<font color="#cc0000">Oral</font>** <br>

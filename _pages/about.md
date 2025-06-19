@@ -17,23 +17,37 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-<link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,600,400italic,600italic,300,300italic'
+<!-- <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,600,400italic,600italic,300,300italic'
+    rel='stylesheet' type='text/css'>
+<style> -->
+
+<link href='https://fonts.googleapis.com/css?family=Turret+Road:400,600,400italic,600italic,300,300italic'
     rel='stylesheet' type='text/css'>
 <style>
 
 </style>
 # 🐨 About Me
-I am Fan Zhou, currently a PhD student advised by Prof. [Pengfei Liu](http://pfliu.com/).
+I am **Fan Zhou**, currently a 1st year PhD student at **[Shanghai Jiao Tong University](https://en.sjtu.edu.cn/)**, advised by Prof. **[Pengfei Liu](http://pfliu.com/)**.
+<!-- ## Research Interests -->
+My research focuses on scalable methods (data, toolkits, and recipes) for building performant models, with the aim of contributing to powerful general-purpose AI *(or AGI if you would like to call it)* . 
+Recently, I’ve been particularly interested in the following areas:
+1. Developing Data-Centric Recipes for Foundation Models \\
+  ([**GURU**](https://www.arxiv.org/abs/2506.14965), [**OctoThinker**](https://natural-rugby-f7c.notion.site/OctoThinker-Revisiting-Mid-Training-1d20b810e2d680c494a9f9dad0a90d53), [**MegaMath**](https://arxiv.org/abs/2504.02807), [**ProX**](https://arxiv.org/abs/2409.17115), [**Sailor2**](https://arxiv.org/abs/2502.12982))
+2. Building Agentic AI for Real-World Scenarios \\
+  ([**OpenAgents**](https://github.com/xlang-ai/OpenAgents), [**Lemur**](https://arxiv.org/abs/2310.06830))
 
-Previously, I obtained my Master Degree, and Bachelor Degree (IEEE honor class) at [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/) (SJTU), major in computer science.
-I've interned at [Microsoft Research Asia](https://www.microsoft.com/en-us/research/group/data-knowledge-intelligence/) (2021-2022), [XLang Lab](https://xlang.ai/)@[HKUNLP](https://hkunlp.github.io/) (2023), where I spent wonderful times with my mentors and colleagues, and made some good friends.
+<!-- Previously, I obtained my Master Degree, and Bachelor Degree (IEEE honor class) at **[Shanghai Jiao Tong University](https://en.sjtu.edu.cn/)**, major in computer science.
+I've interned at **[Microsoft Research Asia](https://www.microsoft.com/en-us/research/group/data-knowledge-intelligence/)** (2021-2022), **[XLang Lab](https://xlang.ai/)**@**[HKUNLP](https://hkunlp.github.io/)** (2023), where I spent wonderful times with my mentors and colleagues, and made some good friends. -->
 
-## Research Interests
-I try to build useful tools and train performant models towards the goal of powerful and general-purpose AI.
-Recently, I am particularly interested in the following topics, and develop several scalable methods for them:
-- Data-Centric Methods and Foundation Model Development: ([**MegaMath**](https://arxiv.org/abs/2504.02807), [**ProX**](https://arxiv.org/abs/2409.17115), [**Sailor2**](https://sea-sailor.github.io/blog/sailor2/))
-- Code Generation, Understanding, and Everything related to Reasoning ([**MSTaR**](https://arxiv.org/abs/2412.17451), [**OctoThinker**](https://natural-rugby-f7c.notion.site/OctoThinker-Revisiting-Mid-Training-1d20b810e2d680c494a9f9dad0a90d53))
-- Agentic Language Models and Applications: ([**OpenAgents**](https://github.com/xlang-ai/OpenAgents), [**Lemur**](https://arxiv.org/abs/2310.06830))
+<!-- [[CV](./uploads/FanZhou-CV.pdf)] (*Last updated: 2025-06-14*) -->
+
+<!-- ## 📈 GitHub Activity
+<img 
+    src="https://ghchart.rshah.org/koalazf99" 
+    alt="Fan Zhou's GitHub chart" 
+    style="width: 100%;"
+/> -->
+
 
 <!-- <a href='https://scholar.google.com/citations?user=qi8UzmkAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 <a href='./uploads/FZhou_Resume.pdf'><img src="https://img.shields.io/badge/-My Resumé-299DE7?logo=gitbook&logoColor=white"></a>
@@ -87,6 +101,7 @@ Recently, I am particularly interested in the following topics, and develop seve
 
 <div class="scrollable-area" style="width:100%;">
     <ul>
+        <li><em>2025.06</em>: 🙋 We release <strong>GURU</strong>, a large-scale RL Study for general-purpose reasoning models across 6 domains.</li>
         <li><em>2025.05</em>: 📄 <strong>ProX</strong> and <strong>MSTaR</strong> paper are accepted by ICML'25.</li>
         <li><em>2025.04</em>: 🔥 Say hi to <strong>OctoThinker</strong>, a mid-training ablation study in the era of RL scaling.</li>
         <li><em>2025.04</em>: 🔥 We release <strong>MegaMath</strong>, the largest math pre-training dataset to date containing 370B tokens.</li>
@@ -125,15 +140,17 @@ Host your own ChatGPT Plus locally!
 </div>
 </div> -->
 
-# Exeperiences
+# Experiences
 
-- <img src="images/education.png" width=18em style="vertical-align: middle;"> _2017.09 - 2021.06_, B.S.@SJTU, CS, IEEE honor class.
+<!-- - <img src="images/education.png" width=18em style="vertical-align: middle;"> _2025.04 - _, PhD@SJTU, CS. -->
 - <img src="images/education.png" width=18em style="vertical-align: middle;"> _2021.09 - 2024.03_, M.S.@SJTU, CS.
+- <img src="images/education.png" width=18em style="vertical-align: middle;"> _2017.09 - 2021.06_, B.S.@SJTU, CS, IEEE honor class.
 <!-- - <img src="images/intern.png" width=18em style="vertical-align: middle;"> _2021.10 - 2022.08_, Intern@MSRA. -->
 <!-- - <img src="images/intern.png" width=18em style="vertical-align: middle;"> _2023.09 - 2023.09_, Intern@XLang-HKU. -->
 <!-- - <img src="images/intern.png" width=18em style="vertical-align: middle;"> _2024.02 -_, Research Collaborator@Sea AI Lab, Singapore. -->
 <!-- - <img src="images/intern.png" width=18em style="vertical-align: middle;"> _2024.01 - 2024.06_, Research Assistant@Shanghai AI Lab, Shanghai. -->
 <!-- - <img src="images/intern.png" width=18em style="vertical-align: middle;"> _2024.06 - 2025.04_, Intern@LLM360. -->
+<!-- - <img src="images/intern.png" width=18em style="vertical-align: middle;"> _2025.06 - _, Intern@Qwen Team. -->
 
 # Service and Awards
 
