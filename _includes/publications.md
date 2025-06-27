@@ -58,7 +58,8 @@ Zhengzhong Liu, Zhiting Hu (*=equal contribution)
 <div class="paper-box-text" data-selected="true" markdown="1">
 <strong><font color="#374798">OctoThinker: Mid-Training Incentivizes RL Scaling</font></strong>\\
 Zengzhi Wang\*, **Fan Zhou\***, Xuefeng Li, Pengfei Liu \\
-**2025, Blog**. <br>
+**2025, Preprint**. <br>
+<a href="https://arxiv.org/abs/2506.20512" style="pdf"><span>PDF</span></a> / 
 <a href="https://natural-rugby-f7c.notion.site/OctoThinker-Revisiting-Mid-Training-1d20b810e2d680c494a9f9dad0a90d53" style="pdf"><span>Blog</span></a> / 
 <a href="https://github.com/GAIR-NLP/OctoThinker" style="code"><span>Code</span></a> / 
 <img src="images/huggingface_logo.svg" width=23em style="vertical-align: middle;"> 
@@ -66,7 +67,7 @@ Zengzhi Wang\*, **Fan Zhou\***, Xuefeng Li, Pengfei Liu \\
 <a href="https://github.com/GAIR-NLP/OctoThinker">
 <img src="https://img.shields.io/github/stars/GAIR-NLP/OctoThinker?style=social" style="vertical-align: middle;"> \\
 </a>
-<span>A mid-training ablation study in the era of RL scaling.</span>
+<span>A mid-training ablation study in the era of RL scaling, with a 70+B token mid-training dataset.</span>
 <br>
 <br>
 </div>
