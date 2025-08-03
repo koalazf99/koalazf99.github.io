@@ -8,50 +8,22 @@ redirect_from:
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
 
-<!-- <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,600,400italic,600italic,300,300italic'
-    rel='stylesheet' type='text/css'>
-<style> -->
-
 <link href='https://fonts.googleapis.com/css?family=Turret+Road:400,600,400italic,600italic,300,300italic'
     rel='stylesheet' type='text/css'>
-<style>
-
-</style>
 # 🐨 About Me
 I am **Fan Zhou**, currently a 1st year PhD student at **[Shanghai Jiao Tong University](https://en.sjtu.edu.cn/)**, advised by Prof. **[Pengfei Liu](http://pfliu.com/)**.
-<!-- ## Research Interests -->
 My research focuses on scalable methods (data, toolkits, and recipes) for building performant models, with the aim of contributing to powerful general-purpose AI *(or AGI if you would like to call it)* . 
 Recently, I’ve been particularly interested in the following areas:
 1. Developing Data-Centric Recipes for Foundation Models \\
   ([**GURU**](https://www.arxiv.org/abs/2506.14965), [**OctoThinker**](https://natural-rugby-f7c.notion.site/OctoThinker-Revisiting-Mid-Training-1d20b810e2d680c494a9f9dad0a90d53), [**MegaMath**](https://arxiv.org/abs/2504.02807), [**ProX**](https://arxiv.org/abs/2409.17115), [**Sailor2**](https://arxiv.org/abs/2502.12982))
 2. Building Agentic AI for Real-World Scenarios \\
-  ([**OpenAgents**](https://github.com/xlang-ai/OpenAgents), [**Lemur**](https://arxiv.org/abs/2310.06830))
-
-<!-- Previously, I obtained my Master Degree, and Bachelor Degree (IEEE honor class) at **[Shanghai Jiao Tong University](https://en.sjtu.edu.cn/)**, major in computer science.
-I've interned at **[Microsoft Research Asia](https://www.microsoft.com/en-us/research/group/data-knowledge-intelligence/)** (2021-2022), **[XLang Lab](https://xlang.ai/)**@**[HKUNLP](https://hkunlp.github.io/)** (2023), where I spent wonderful times with my mentors and colleagues, and made some good friends. -->
-
-<!-- [[CV](./uploads/FanZhou-CV.pdf)] (*Last updated: 2025-06-14*) -->
-
-<!-- ## 📈 GitHub Activity
-<img 
-    src="https://ghchart.rshah.org/koalazf99" 
-    alt="Fan Zhou's GitHub chart" 
-    style="width: 100%;"
-/> -->
+  ([**Qwen Code**](https://github.com/QwenLM/qwen-code), [**OpenAgents**](https://github.com/xlang-ai/OpenAgents), [**Lemur**](https://arxiv.org/abs/2310.06830))
 
 
-<!-- <a href='https://scholar.google.com/citations?user=qi8UzmkAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
-<a href='./uploads/FZhou_Resume.pdf'><img src="https://img.shields.io/badge/-My Resumé-299DE7?logo=gitbook&logoColor=white"></a>
-<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fkoalazf99.github.io&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=visitors&edge_flat=false"/></a> -->
+
 
 
 # 🔥 News
@@ -101,6 +73,7 @@ I've interned at **[Microsoft Research Asia](https://www.microsoft.com/en-us/res
 
 <div class="scrollable-area" style="width:100%;">
     <ul>
+        <li><em>2025.07</em>: 📄 <strong>MegaMath</strong> paper is accepted by COLM'25.</li>
         <li><em>2025.06</em>: 🙋 We release <strong>GURU</strong>, a large-scale RL Study for general-purpose reasoning models across 6 domains.</li>
         <li><em>2025.05</em>: 📄 <strong>ProX</strong> and <strong>MSTaR</strong> paper are accepted by ICML'25.</li>
         <li><em>2025.04</em>: 🔥 Say hi to <strong>OctoThinker</strong>, a mid-training ablation study in the era of RL scaling.</li>
@@ -119,44 +92,61 @@ I've interned at **[Microsoft Research Asia](https://www.microsoft.com/en-us/res
     </ul>  
 </div>
 
-<!-- import publications markdown -->
 {% include publications.md %}
-
-
-<!-- # Projects
-<div class='paper-box'>
-    <div class='paper-box-image'>
-        <div><img src='images/openagents_overview.png' alt="sym" width="100%"></div>
-    </div>
-    <div class='paper-box-text' markdown="1">
-
-[**OpenAgents**](https://github.com/xlang-ai/OpenAgents) (2023) [![](https://img.shields.io/github/stars/xlang-ai/OpenAgents?style=social)](https://github.com/xlang-ai/OpenAgents)
-
-Host your own ChatGPT Plus locally!
-
-- **Data Agent**: code interpreter augmented with data tools
-- **Plugins Agent**: 200+ plugins for daily life
-- **Web Agent**: autonomous web browsing
-</div>
-</div> -->
 
 # Experiences
 
-<!-- - <img src="images/education.png" width=18em style="vertical-align: middle;"> _2025.04 - _, PhD@SJTU, CS. -->
+<!-- 
+
+═══════════════════════
+
+2017 ──────► 2021      2021 ──────► 2024      2024 ──────► Present
+    B.S.                  M.S.                    Ph.D.
+    IEEE Honor            Computer               Computer
+    Class               Science                Science
+═══════════════════════════════════════════════════════════════
+
+        🏛️ SJTU           🏛️ SJTU             🏛️ SJTU 
+-->
+
 - <img src="images/education.png" width=18em style="vertical-align: middle;"> _2021.09 - 2024.03_, M.S.@SJTU, CS.
 - <img src="images/education.png" width=18em style="vertical-align: middle;"> _2017.09 - 2021.06_, B.S.@SJTU, CS, IEEE honor class.
-<!-- - <img src="images/intern.png" width=18em style="vertical-align: middle;"> _2021.10 - 2022.08_, Intern@MSRA. -->
-<!-- - <img src="images/intern.png" width=18em style="vertical-align: middle;"> _2023.09 - 2023.09_, Intern@XLang-HKU. -->
-<!-- - <img src="images/intern.png" width=18em style="vertical-align: middle;"> _2024.02 -_, Research Collaborator@Sea AI Lab, Singapore. -->
-<!-- - <img src="images/intern.png" width=18em style="vertical-align: middle;"> _2024.01 - 2024.06_, Research Assistant@Shanghai AI Lab, Shanghai. -->
-<!-- - <img src="images/intern.png" width=18em style="vertical-align: middle;"> _2024.06 - 2025.04_, Intern@LLM360. -->
-<!-- - <img src="images/intern.png" width=18em style="vertical-align: middle;"> _2025.06 - _, Intern@Qwen Team. -->
+
+<!-- 
+🎯 Hidden Professional Journey (Easter Egg!)
+═══════════════════════════════════════════════
+
+     🏢 MSRA (2021-2022)
+        │
+        ├─► Data & Knowledge Intelligence
+        └─► Award of Excellence
+        
+     🌟 XLang-HKU (2023)
+        │
+        └─► Cross-lingual AI Research
+        
+     🌊 Sea AI Lab (2024-present)
+        │
+        └─► Research Collaborator, Singapore
+        
+     🧪 Shanghai AI Lab (2024)
+        │
+        └─► Research Assistant
+        
+     🚀 LLM360 (2024-2025)
+        │
+        └─► Open Source LLM Initiative
+        
+     ⚡ Qwen Team (2025-present)
+        │
+        └─► Next-Gen Language Models
+
+ASCII Art by Fan Zhou 🎨
+-->
 
 # Service and Awards
 
 - Reviewer: ICLR, NeurIPS, COLM, ACL, IJCAI, COLING, ...
-<!-- [Instruction Workshop @ NeurIPS 2023](https://an-instructive-workshop.github.io/), [MATH-AI Workshop @ NeurIPS 2024](https://mathai2024.github.io/) -->
-<!-- - TA: Introduction to Programming (2021), [Large Language Models](https://gair-nlp.github.io/cs2916/) (CS2916, 2024) -->
 - MSRA: Award of Excellent Intern, 2022
 <!-- - Outstanding Graduates of SJTU, 2021 -->
 <!-- - SJTU Academic Scholarship, 2017~2020 -->

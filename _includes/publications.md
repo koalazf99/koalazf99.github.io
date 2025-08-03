@@ -21,14 +21,14 @@
 <div class="paper-box-text" data-selected="true" markdown="1">
 <strong><font color="#374798">Revisiting Reinforcement Learning for LLM Reasoning from A Cross-Domain Perspective</font></strong>\\
 Zhoujun Cheng\*, Shibo Hao\*, Tianyang Liu\*, **Fan Zhou**, Feng Yao, Yuexin Bian, Yutao Xie, 
-<span id="authorsCollapsed">... , </span>
-<span id="authorsExpanded" style="display: none;">
+<span id="authorsCollapsed-guru">... , </span>
+<span id="authorsExpanded-guru" style="display: none;">
 Nilabjo Dey, Yonghao Zhuang, Yuheng Zha, Yi Gu, Kun Zhou, Yuqi Wang, Yuan Li, Richard Fan, Jianshu She, Chengqian Gao, Abulhair Saparov, Taylor W. Killian, Haonan Li, Mikhail Yurochkin, Eric P. Xing, 
 </span>
 Zhengzhong Liu, Zhiting Hu (*=equal contribution)
 <a href="#" onclick="
-      var a = document.getElementById('authorsExpanded');
-      var c = document.getElementById('authorsCollapsed');
+      var a = document.getElementById('authorsExpanded-guru');
+      var c = document.getElementById('authorsCollapsed-guru');
       if(a.style.display==='none'){
          a.style.display='inline';
          c.style.display='none';
@@ -89,7 +89,7 @@ Shijie Xia, Yiwei Qin, Xuefeng Li, Yan Ma, Run-Ze Fan, Steffi Chern, Haoyang Zou
 <div class="paper-box-text" data-selected="true" markdown="1">
 <strong><font color="#374798">MegaMath: Pushing the Limits of Open Math Corpora</font></strong>\\
 **Fan Zhou\***, Zengzhi Wang\*, Nikhil Ranjan, Zhoujun Cheng, Liping Tang, Guowei He, Zhengzhong Liu, Eric P. Xing \\
-**2025, Preprint**. <br>
+**COLM 2025**. <br>
 <a href="https://arxiv.org/abs/2504.02807" style="pdf"><span>PDF</span></a> / 
 <a href="https://github.com/LLM360/MegaMath" style="code"><span>Code</span></a> / 
 <img src="images/huggingface_logo.svg" width=23em style="vertical-align: middle;"> 
@@ -107,14 +107,14 @@ Shijie Xia, Yiwei Qin, Xuefeng Li, Yan Ma, Run-Ze Fan, Steffi Chern, Haoyang Zou
 <div class="paper-box-text" data-selected="true" markdown="1">
 <strong><font color="#374798">Sailor2: Sailing in South-East Asia with Inclusive Multilingual LLMs</font></strong>\\
 Longxu Dou\*, Qian Liu\*, **Fan Zhou\***, Changyu Chen\*, 
-<span id="authorsCollapsed">... , </span>
-<span id="authorsExpanded" style="display: none;">
+<span id="authorsCollapsed-sailor2">... , </span>
+<span id="authorsExpanded-sailor2" style="display: none;">
 Zili Wang, Ziqi Jin, Zichen Liu, Tongyao Zhu, Cunxiao Du, Penghui Yang, Haonan Wang, Xin Mao, Xiachong Feng, Man Tsung Yeung, Xinyi Wan, Kunat Pipatanakul, Fajri Koto, Min Si Thu, Hynek Kydlicek, Zeyi Liu, Qunshu Lin, Sittipong Sripaisarnmongkol, Kridtaphad Sae-Khow, Nirattisai Thongchim, Taechawat Konkaew, Narong Borijindargoon, Matichon Maneegard, Phakphum Artkaew, Quan Nguyen, Wannaphong Phatthiyaphaibun, Zheng-Xin Yong, Anh Dao, Hoang H. Tran, Mike Zhang, 
 </span>
 Tianyu Pang, Chao Du, Wei Lu, Min Lin (*=equal contribution)
 <a href="#" onclick="
-      var a = document.getElementById('authorsExpanded');
-      var c = document.getElementById('authorsCollapsed');
+      var a = document.getElementById('authorsExpanded-sailor2');
+      var c = document.getElementById('authorsCollapsed-sailor2');
       if(a.style.display==='none'){
          a.style.display='inline';
          c.style.display='none';
