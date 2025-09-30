@@ -14,9 +14,24 @@
 <!-- 标题区域，使用 h1 实现 Markdown 的 # 标题效果 -->
 
 <h1 class="publication-header">
-  <span id="selectedHeader" class="active" onclick="filterPubs('selected')">📖 [Selected Publications]</span> |
-  <span id="fullHeader" onclick="filterPubs('full')">[Full Publications]</span>
+  <span id="selectedHeader" class="active" onclick="filterPubs('selected')">📖 [Selected Projects]</span> |
+  <span id="fullHeader" onclick="filterPubs('full')">[Full]</span>
 </h1>
+
+<div class="paper-box-text" data-selected="true" markdown="1">
+<strong><font color="#374798">Qwen3-Coder: Agentic Coding in the World</font></strong>\\
+**Qwen Team** <br>
+<a href="https://qwenlm.github.io/blog/qwen3-coder/" style="pdf"><span>Blog</span></a> /
+<a href="https://github.com/QwenLM/Qwen3-Coder" style="code"><span>Code</span></a> /
+<img src="images/huggingface_logo.svg" width=23em style="vertical-align: middle;"> 
+<a href="https://huggingface.co/collections/Qwen/qwen3-coder-687fc861e53c939e52d52d10" style="pdf"><span>Models</span></a> /
+<a href="https://github.com/QwenLM/Qwen3-Coder">
+<img src="https://img.shields.io/github/stars/QwenLM/Qwen3-Coder?style=social" style="vertical-align: middle;"> \\
+</a>
+<span>Focused on Improving Agentic Coding Capabilities.</span>
+<br>
+<br>
+</div>
 
 <div class="paper-box-text" data-selected="true" markdown="1">
 <strong><font color="#374798">Revisiting Reinforcement Learning for LLM Reasoning from A Cross-Domain Perspective</font></strong>\\
@@ -42,7 +57,7 @@ Zhengzhong Liu, Zhiting Hu (*=equal contribution)
     ">
 [more authors]
 </a> \\
-**2025, Preprint**. <br>
+**NeurIPS 2025**. <br>
 <a href="https://www.arxiv.org/abs/2506.14965" style="pdf"><span>PDF</span></a> / 
 <a href="https://github.com/LLM360/Reasoning360" style="code"><span>Code</span></a> / 
 <img src="images/huggingface_logo.svg" width=23em style="vertical-align: middle;"> 
@@ -58,7 +73,7 @@ Zhengzhong Liu, Zhiting Hu (*=equal contribution)
 <div class="paper-box-text" data-selected="true" markdown="1">
 <strong><font color="#374798">OctoThinker: Mid-Training Incentivizes RL Scaling</font></strong>\\
 Zengzhi Wang\*, **Fan Zhou\***, Xuefeng Li, Pengfei Liu \\
-**2025, Preprint**. <br>
+**ICML 2025, AI4Math Workshop**. <br>
 <a href="https://arxiv.org/abs/2506.20512" style="pdf"><span>PDF</span></a> / 
 <a href="https://natural-rugby-f7c.notion.site/OctoThinker-Revisiting-Mid-Training-1d20b810e2d680c494a9f9dad0a90d53" style="pdf"><span>Blog</span></a> / 
 <a href="https://github.com/GAIR-NLP/OctoThinker" style="code"><span>Code</span></a> / 

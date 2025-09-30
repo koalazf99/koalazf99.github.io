@@ -15,12 +15,12 @@ redirect_from:
     rel='stylesheet' type='text/css'>
 # 🐨 About Me
 I am **Fan Zhou**, currently a 1st year PhD student at **[Shanghai Jiao Tong University](https://en.sjtu.edu.cn/)**, advised by Prof. **[Pengfei Liu](http://pfliu.com/)**.
-My research focuses on scalable methods (data, toolkits, and recipes) for building performant models, with the aim of contributing to powerful general-purpose AI *(or AGI if you would like to call it)* . 
+My research focuses on scalable methods (e.g., scaling data pipelines, stablizing agentic scaffolds) for building performant models, with the aim of contributing to powerful general-purpose AI *(or AGI if you would like to call it)* . 
 Recently, I’ve been particularly interested in the following areas:
 1. Developing Data-Centric Recipes for Foundation Models \\
   ([**GURU**](https://www.arxiv.org/abs/2506.14965), [**OctoThinker**](https://natural-rugby-f7c.notion.site/OctoThinker-Revisiting-Mid-Training-1d20b810e2d680c494a9f9dad0a90d53), [**MegaMath**](https://arxiv.org/abs/2504.02807), [**ProX**](https://arxiv.org/abs/2409.17115), [**Sailor2**](https://arxiv.org/abs/2502.12982))
 2. Building Agentic AI for Real-World Scenarios \\
-  ([**Qwen Code**](https://github.com/QwenLM/qwen-code), [**OpenAgents**](https://github.com/xlang-ai/OpenAgents), [**Lemur**](https://arxiv.org/abs/2310.06830))
+  ([**Qwen3-Coder**](https://qwenlm.github.io/blog/qwen3-coder/), [**Qwen Code**](https://github.com/QwenLM/qwen-code), [**OpenAgents**](https://github.com/xlang-ai/OpenAgents), [**Lemur**](https://arxiv.org/abs/2310.06830))
 
 
 
@@ -73,6 +73,8 @@ Recently, I’ve been particularly interested in the following areas:
 
 <div class="scrollable-area" style="width:100%;">
     <ul>
+        <li><em>2025.09</em>: 🔥 <strong>Qwen3-Coder</strong> is released, an agentic coding model for the world.</li>
+        <li><em>2025.09</em>: 📄 <strong>GURU</strong> paper is accepted by Neurips'25.</li>
         <li><em>2025.07</em>: 📄 <strong>MegaMath</strong> paper is accepted by COLM'25.</li>
         <li><em>2025.06</em>: 🙋 We release <strong>GURU</strong>, a large-scale RL Study for general-purpose reasoning models across 6 domains.</li>
         <li><em>2025.05</em>: 📄 <strong>ProX</strong> and <strong>MSTaR</strong> paper are accepted by ICML'25.</li>
