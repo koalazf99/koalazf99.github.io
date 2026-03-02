@@ -4,9 +4,25 @@
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="#about-me">Homepage</a></li>
+          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item{% if page.url == '/' %} is-current{% endif %}">
+            <a href="{{ '/#about-me' | relative_url }}" target="_self" data-nav-path="{{ '/' | relative_url }}" data-nav-section="about-me"{% if page.url == '/' %} aria-current="page"{% endif %}>Fan Zhou</a>
+          </li>
           {% for link in site.data.navigation.main %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            {% assign nav_parts = link.url | split: '#' %}
+            {% assign nav_path = nav_parts[0] %}
+            {% if nav_path == "" %}
+              {% assign nav_path = "/" %}
+            {% endif %}
+            {% assign nav_section = nav_parts[1] %}
+            {% assign nav_active = false %}
+            {% unless link.url contains '#' %}
+              {% if page.url == nav_path %}
+                {% assign nav_active = true %}
+              {% endif %}
+            {% endunless %}
+            <li class="masthead__menu-item{% if nav_active %} is-current{% endif %}">
+              <a href="{{ link.url | relative_url }}" target="_self" data-nav-path="{{ nav_path | relative_url }}"{% if nav_section %} data-nav-section="{{ nav_section }}"{% endif %}{% if nav_active %} aria-current="page"{% endif %}>{{ link.title }}</a>
+            </li>
           {% endfor %}
         </ul>
         <ul class="hidden-links hidden"></ul>

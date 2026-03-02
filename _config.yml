@@ -22,15 +22,17 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Fan Zhou"
-  avatar           : "images/android-chrome-512x512.png"
+  avatar           : "images/Fan_Profile.jpeg"
+  tagline          :
   bio              : ""
   location         : 
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=qi8UzmkAAAAJ&hl=en"
   email            : "koala99.zf@gmail.com"
+  cv               : "uploads/FanZhou-CV.pdf"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
-  uri              :  "https://www.semanticscholar.org/author/Fan-Zhou/2153433679"
+  uri              :
   bitbucket        :
   codepen          :
   dribbble         :
