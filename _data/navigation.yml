@@ -4,16 +4,10 @@ main:
     url: "/#about-me"
 
   - title: "News"
-    url: "/#-news"
+    url: "/#news"
 
   - title: "Publications"
-    url: "/#publications"
-  
-  # - title: "Projects"
-  #   url: "/#projects"
-  
-  - title: "Experiences"
-    url: "/#experiences"
-  
-  - title: "Service and Awards"
-    url: "/#service-and-awards"
+    url: "/publications/"
+
+  - title: "CV"
+    url: "/uploads/FanZhou-CV.pdf"
