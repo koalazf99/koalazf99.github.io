@@ -1,0 +1,420 @@
+- id: megaflow
+  sort_key: "2026-01-01-megaflow"
+  selected: false
+  title: "MegaFlow: Large-Scale Distributed Orchestration System for the Agentic Era"
+  authors: 'Lei Zhang, Mouxiang Chen, Ruisheng Cao, Jiawei Chen, **Fan Zhou**, Yiheng Xu, Jiaxi Yang, Liang Chen, Changwei Luo, Kai Zhang, Fan Yan, KaShun Shum, Jiajun Zhang, Zeyu Cui, Hu Feng, Junyang Lin, Binyuan Hui, Min Yang'
+  venue_html: '**2026, Preprint**.'
+  links_primary:
+    - label: "PDF"
+      url: "https://arxiv.org/abs/2601.07526"
+      class: "pdf"
+  summary: "A large-scale distributed orchestration system for efficient scheduling, resource allocation, and fine-grained task management of agent-environment workloads."
+
+- id: qwen35
+  sort_key: "2025-12-01-qwen35"
+  selected: true
+  title: "Qwen3.5: Towards Native Multimodal Agents"
+  authors: '**Qwen Team**'
+  links_primary:
+    - label: "Blog"
+      url: "https://qwen.ai/blog?id=qwen3.5"
+      class: "pdf"
+    - label: "Models"
+      url: "https://huggingface.co/collections/Qwen/qwen35"
+      class: "pdf"
+      icon: "hf"
+  summary: "A native multimodal model family with powerful agent capabilities."
+
+- id: qwen3_coder
+  sort_key: "2025-11-01-qwen3-coder"
+  selected: true
+  title: "Qwen3-Coder: Agentic Coding in the World"
+  authors: '**Qwen Team** (Core Contributor)'
+  links_primary:
+    - label: "Blog"
+      url: "https://qwenlm.github.io/blog/qwen3-coder/"
+      class: "pdf"
+    - label: "Code"
+      url: "https://github.com/QwenLM/Qwen3-Coder"
+      class: "code"
+    - label: "Models"
+      url: "https://huggingface.co/collections/Qwen/qwen3-coder-687fc861e53c939e52d52d10"
+      class: "pdf"
+      icon: "hf"
+  summary: "Focused on improving agentic coding capabilities."
+
+- id: toolathlon
+  sort_key: "2025-10-15-toolathlon"
+  selected: false
+  title: "The Tool Decathlon: Benchmarking Language Agents for Diverse, Realistic, and Long-Horizon Task Execution"
+  authors_before: 'Junlong Li, Wenshuo Zhao, Jian Zhao, Weihao Zeng, Haoze Wu, Xiaochen Wang, Rui Ge, Yuxuan Cao, **Fan Zhou**, '
+  authors_expanded: 'Yuzhen Huang, Wei Liu, Junteng Liu, Zhaochen Su, Yiyang Guo, Lueyang Zhang, Juan Michelini, Xingyao Wang, Xiang Yue, Shuyan Zhou, '
+  authors_after: 'Graham Neubig, Junxian He'
+  venue_html: '**ICLR 2026**.'
+  links_primary:
+    - label: "PDF"
+      url: "https://arxiv.org/abs/2510.25726"
+      class: "pdf"
+  summary: "A benchmark for language agents with 32 software applications, 604 tools, and 108 tasks covering diverse, realistic, and long-horizon task execution."
+
+- id: qwen3_max_thinking
+  sort_key: "2025-10-01-qwen3-max-thinking"
+  selected: false
+  title: "Pushing Qwen3-Max-Thinking Beyond its Limits"
+  authors: '**Qwen Team**'
+  links_primary:
+    - label: "Blog"
+      url: "https://qwen.ai/blog?id=qwen3-max-thinking"
+      class: "pdf"
+  summary: "A strong reasoning model for advanced reasoning, verification, and multi-step problem solving with adaptive tool-use and test-time scaling."
+
+- id: qwen3_coder_next
+  sort_key: "2025-09-01-qwen3-coder-next"
+  selected: true
+  title: "Qwen3-Coder-Next: Pushing Small Hybrid Models on Agentic Coding"
+  authors: '**Qwen Team** (Core Contributor)'
+  links_primary:
+    - label: "Blog"
+      url: "https://qwen.ai/blog?id=qwen3-coder-next"
+      class: "pdf"
+    - label: "PDF"
+      url: "https://github.com/QwenLM/Qwen3-Coder/blob/main/qwen3_coder_next_tech_report.pdf"
+      class: "pdf"
+    - label: "Code"
+      url: "https://github.com/QwenLM/Qwen3-Coder"
+      class: "code"
+    - label: "Model"
+      url: "https://huggingface.co/Qwen/Qwen3-Coder-Next"
+      class: "pdf"
+      icon: "hf"
+  summary: "A local-first agentic coding model based on Qwen3-Next."
+
+- id: qwen_code
+  sort_key: "2025-08-01-qwen-code"
+  selected: false
+  title: "Qwen Code"
+  authors: '**Qwen Team** (Core Contributor)'
+  links_primary:
+    - label: "Code"
+      url: "https://github.com/QwenLM/qwen-code"
+      class: "code"
+    - label: "Web"
+      url: "https://qwen.ai/qwencode"
+      class: "pdf"
+  summary: "An open-source AI agent that lives in your terminal."
+
+- id: guru
+  sort_key: "2025-06-20-guru"
+  selected: true
+  title: "Revisiting Reinforcement Learning for LLM Reasoning from A Cross-Domain Perspective"
+  authors_before: 'Zhoujun Cheng\*, Shibo Hao\*, Tianyang Liu\*, **Fan Zhou**, Feng Yao, Yuexin Bian, Yutao Xie, '
+  authors_expanded: 'Nilabjo Dey, Yonghao Zhuang, Yuheng Zha, Yi Gu, Kun Zhou, Yuqi Wang, Yuan Li, Richard Fan, Jianshu She, Chengqian Gao, Abulhair Saparov, Taylor W. Killian, Haonan Li, Mikhail Yurochkin, Eric P. Xing, '
+  authors_after: 'Zhengzhong Liu, Zhiting Hu (*=equal contribution)'
+  venue_html: '**NeurIPS 2025**.'
+  links_primary:
+    - label: "PDF"
+      url: "https://www.arxiv.org/abs/2506.14965"
+      class: "pdf"
+    - label: "Code"
+      url: "https://github.com/LLM360/Reasoning360"
+      class: "code"
+    - label: "Dataset"
+      url: "https://huggingface.co/datasets/LLM360/guru-RL-92k"
+      class: "pdf"
+      icon: "hf"
+  summary: "GURU: An open RL suite for developing general-purpose reasoning models."
+
+- id: octothinker
+  sort_key: "2025-06-15-octothinker"
+  selected: true
+  title: "OctoThinker: Mid-Training Incentivizes RL Scaling"
+  authors: 'Zengzhi Wang\*, **Fan Zhou\***, Xuefeng Li, Pengfei Liu'
+  venue_html: '**ICML 2025, AI4Math Workshop**.'
+  links_primary:
+    - label: "PDF"
+      url: "https://arxiv.org/abs/2506.20512"
+      class: "pdf"
+    - label: "Blog"
+      url: "https://natural-rugby-f7c.notion.site/OctoThinker-Revisiting-Mid-Training-1d20b810e2d680c494a9f9dad0a90d53"
+      class: "pdf"
+    - label: "Code"
+      url: "https://github.com/GAIR-NLP/OctoThinker"
+      class: "code"
+    - label: "Resources"
+      url: "https://huggingface.co/OctoThinker"
+      class: "pdf"
+      icon: "hf"
+  summary: "A mid-training ablation study in the era of RL scaling, with a 70+B token mid-training dataset."
+
+- id: cognition_engineering
+  sort_key: "2025-04-20-cognition-engineering"
+  selected: false
+  title: "Generative AI Act II: Test Time Scaling Drives Cognition Engineering"
+  authors: 'Shijie Xia, Yiwei Qin, Xuefeng Li, Yan Ma, Run-Ze Fan, Steffi Chern, Haoyang Zou, **Fan Zhou**, Xiangkun Hu, Jiahe Jin, Yanheng He, Yixin Ye, Yixiu Liu, Pengfei Liu'
+  venue_html: '**2025, Preprint**.'
+  links_primary:
+    - label: "PDF"
+      url: "https://arxiv.org/abs/2504.13828"
+      class: "pdf"
+    - label: "Code"
+      url: "https://github.com/GAIR-NLP/cognition-engineering"
+      class: "code"
+  summary: "A survey on Test Time Scaling."
+
+- id: megamath
+  sort_key: "2025-04-10-megamath"
+  selected: true
+  title: "MegaMath: Pushing the Limits of Open Math Corpora"
+  authors: '**Fan Zhou\***, Zengzhi Wang\*, Nikhil Ranjan, Zhoujun Cheng, Liping Tang, Guowei He, Zhengzhong Liu, Eric P. Xing'
+  venue_html: '**COLM 2025**.'
+  links_primary:
+    - label: "PDF"
+      url: "https://arxiv.org/abs/2504.02807"
+      class: "pdf"
+    - label: "Code"
+      url: "https://github.com/LLM360/MegaMath"
+      class: "code"
+    - label: "Dataset"
+      url: "https://huggingface.co/datasets/LLM360/MegaMath"
+      class: "pdf"
+      icon: "hf"
+  note: "(>70K Downloads, >350B Tokens)"
+  summary: "The largest open math pre-training dataset with 370B tokens."
+
+- id: sailor2
+  sort_key: "2025-02-15-sailor2"
+  selected: false
+  title: "Sailor2: Sailing in South-East Asia with Inclusive Multilingual LLMs"
+  authors_before: 'Longxu Dou\*, Qian Liu\*, **Fan Zhou\***, Changyu Chen\*, '
+  authors_expanded: 'Zili Wang, Ziqi Jin, Zichen Liu, Tongyao Zhu, Cunxiao Du, Penghui Yang, Haonan Wang, Xin Mao, Xiachong Feng, Man Tsung Yeung, Xinyi Wan, Kunat Pipatanakul, Fajri Koto, Min Si Thu, Hynek Kydlicek, Zeyi Liu, Qunshu Lin, Sittipong Sripaisarnmongkol, Kridtaphad Sae-Khow, Nirattisai Thongchim, Taechawat Konkaew, Narong Borijindargoon, Matichon Maneegard, Phakphum Artkaew, Quan Nguyen, Wannaphong Phatthiyaphaibun, Zheng-Xin Yong, Anh Dao, Hoang H. Tran, Mike Zhang, '
+  authors_after: 'Tianyu Pang, Chao Du, Wei Lu, Min Lin (*=equal contribution)'
+  venue_html: '**2025, Tech Report**.'
+  links_primary:
+    - label: "PDF"
+      url: "https://arxiv.org/abs/2502.12982"
+      class: "pdf"
+    - label: "Blog"
+      url: "https://sea-sailor.github.io/blog/sailor2/"
+      class: "code"
+    - label: "Code"
+      url: "https://github.com/sail-sg/sailor2"
+      class: "code"
+    - label: "Resources"
+      url: "https://huggingface.co/sailor2"
+      class: "pdf"
+      icon: "hf"
+  summary: "An open state-of-the-art language model family for south-east asia languages, continually trained on Qwen-2.5."
+
+- id: mstar
+  sort_key: "2025-01-15-mstar"
+  selected: false
+  title: "Diving into Self-Evolving Training for Multimodal Reasoning"
+  authors: 'Wei Liu\*, Junlong Li\*, Xiwen Zhang, **Fan Zhou**, Yu Cheng, Junxian He, (*=equal contribution)'
+  venue_html: '**ICML 2025**'
+  links_primary:
+    - label: "PDF"
+      url: "https://arxiv.org/abs/2412.17451"
+      class: "pdf"
+    - label: "Code"
+      url: "https://github.com/hkust-nlp/mstar"
+      class: "code"
+    - label: "Resources"
+      url: "https://huggingface.co/collections/hkust-nlp/m-star-676bbf9f749dbf511e7c4a32"
+      class: "pdf"
+      icon: "hf"
+    - label: "Project Page"
+      url: "https://mstar-lmm.github.io/"
+      class: "code"
+  summary: "A self-evolving training recipe for multimodal reasoning, M-STaR."
+
+- id: prox
+  sort_key: "2024-09-20-prox"
+  selected: true
+  title: "Programming Every Example: Lifting Pre-training Data Quality like Experts at Scale"
+  authors: '**Fan Zhou\***, Zengzhi Wang\*, Qian Liu, Junlong Li, Pengfei Liu, (*=equal contribution)'
+  venue_html: '**ICML 2025**'
+  links_primary:
+    - label: "PDF"
+      url: "https://arxiv.org/abs/2409.17115"
+      class: "pdf"
+    - label: "Code"
+      url: "https://github.com/GAIR-NLP/ProX"
+      class: "code"
+    - label: "Dataset"
+      url: "https://huggingface.co/gair-prox"
+      class: "pdf"
+      icon: "hf"
+  note: "(>10K Downloads, >500B Tokens)"
+  links_secondary:
+    - label: "Project Page"
+      url: "https://gair-nlp.github.io/ProX"
+      class: "pdf"
+  summary: "A small-LLM-based pre-training data refining framework via seamless program generation."
+
+- id: olympicarena
+  sort_key: "2024-06-20-olympicarena"
+  selected: false
+  title: "OlympicArena: Benchmarking Multi-discipline Cognitive Reasoning for Superintelligent AI"
+  authors: 'Zhen Huang, Zengzhi Wang, Shijie Xia, Xuefeng Li, Haoyang Zou, Ruijie Xu, Run-Ze Fan, Lyumanshan Ye, Ethan Chern, Yixin Ye, Yikai Zhang, Yuqing Yang, Ting Wu, Binjie Wang, Shichao Sun, Yang Xiao, Yiyuan Li, **Fan Zhou**, Steffi Chern, Yiwei Qin, Yan Ma, Jiadi Su, Yixiu Liu, Yuxiang Zheng, Shaoting Zhang, Dahua Lin, Yu Qiao, Pengfei Liu'
+  venue_html: '**Neurips 2024 (DB track)**'
+  links_primary:
+    - label: "PDF"
+      url: "https://arxiv.org/abs/2406.12753"
+      class: "pdf"
+    - label: "Code"
+      url: "https://github.com/GAIR-NLP/OlympicArena"
+      class: "code"
+    - label: "Datasets"
+      url: "https://huggingface.co/datasets/GAIR/OlympicArena"
+      class: "pdf"
+      icon: "hf"
+    - label: "Project Page"
+      url: "https://gair-nlp.github.io/OlympicArena/"
+      class: "pdf"
+  summary: "A challenging multi-modal olympic competition benchmark for LLMs and LVMs."
+
+- id: preference_dissection
+  sort_key: "2024-02-20-preference-dissection"
+  selected: false
+  title: "Dissecting Human and LLM Preferences"
+  authors: 'Junlong Li, **Fan Zhou**, Shichao Sun, Yikai Zhang, Hai Zhao, Pengfei Liu'
+  venue_html: '**ACL 2024**'
+  links_primary:
+    - label: "PDF"
+      url: "https://arxiv.org/abs/2402.11296"
+      class: "pdf"
+    - label: "Code"
+      url: "https://github.com/GAIR-NLP/Preference-Dissection"
+      class: "code"
+    - label: "Datasets"
+      url: "https://huggingface.co/datasets/GAIR/Preference-Dissection"
+      class: "pdf"
+      icon: "hf"
+  summary: "Disentangling preferred and dispreferred features of LLM responses."
+
+- id: openagents
+  sort_key: "2024-01-20-openagents"
+  selected: true
+  title: "OpenAgents: An Open Platform for Language Agents in the Wild"
+  authors: 'Tianbao Xie\*, **Fan Zhou\***, Zhoujun Cheng\*, Peng Shi\*, Luoxuan Weng\*, Yitao Liu\*, Toh Jing Hua, Junning Zhao, Qian Liu, Che Liu, Leo Z. Liu, Yiheng Xu, Hongjin Su, Dongchan Shin, Caiming Xiong, Tao Yu, (*=equal contribution)'
+  venue_html: '**COLM 2024**'
+  links_primary:
+    - label: "PDF"
+      url: "https://arxiv.org/abs/2310.10634"
+      class: "pdf"
+    - label: "Code"
+      url: "https://github.com/xlang-ai/OpenAgents"
+      class: "code"
+    - label: "Blog"
+      url: "https://www.xlang.ai/blog/xlang-intro"
+      class: "pdf"
+  note: "(7.5K Users)"
+  summary: "An open platform for using, hosting, and building language agents."
+
+- id: lemur
+  sort_key: "2023-10-20-lemur"
+  selected: true
+  title: "Lemur: Harmonizing Natural Language and Code for Language Agents"
+  authors: 'Yiheng Xu\*, Hongjin Su\*, Chen Xing\*, Boyu Mi, Qian Liu, Weijia Shi, Binyuan Hui, **Fan Zhou**, Yitao Liu, Tianbao Xie, Zhoujun Cheng, Siheng Zhao, Lingpeng Kong, Bailin Wang, Caiming Xiong, Tao Yu, (*=equal contribution)'
+  venue_html: '**ICLR 2024,** **<font color="#cc0000">Spotlight</font>**'
+  links_primary:
+    - label: "PDF"
+      url: "https://arxiv.org/abs/2310.06830"
+      class: "pdf"
+    - label: "Code"
+      url: "https://github.com/OpenLemur/Lemur"
+      class: "code"
+    - label: "Models"
+      url: "https://huggingface.co/OpenLemur"
+      class: "pdf"
+      icon: "hf"
+    - label: "Blog"
+      url: "https://www.xlang.ai/blog/openlemur"
+      class: "pdf"
+  summary: "A 70B language agent model pre-trained on balanced code and text corpora."
+
+- id: symbolic_instruction
+  sort_key: "2023-04-20-symbolic-instruction"
+  selected: false
+  title: "From Zero to Hero: Examining the Power of Symbolic Tasks in Instruction Tuning"
+  authors: 'Qian Liu\*, **Fan Zhou\***, Zhengbao Jiang, Longxu Dou, Min Lin, (*=equal contribution)'
+  venue_html: '**Tech Report 2023**'
+  links_primary:
+    - label: "PDF"
+      url: "https://arxiv.org/abs/2304.07995"
+      class: "pdf"
+    - label: "Code"
+      url: "https://github.com/sail-sg/symbolic-instruction-tuning"
+      class: "code"
+    - label: "Datasets"
+      url: "https://huggingface.co/datasets/sail/symbolic-instruction-tuning"
+      class: "pdf"
+      icon: "hf"
+  links_secondary:
+    - label: "Models"
+      url: "https://huggingface.co/models?search=sail/tapex-zero"
+      class: "pdf"
+  summary: "A symbolic and synthetic method for improving LM instruction tuning."
+
+- id: reflection_of_thought
+  sort_key: "2022-10-20-reflection-of-thought"
+  selected: false
+  title: "Reflection of Thought: Inversely Eliciting Numerical Reasoning in Language Models via Solving Linear Systems"
+  authors: '**Fan Zhou\***, Haoyu Dong\*, Qian Liu, Zhoujun Cheng, Shi Han, Dongmei Zhang, (*=equal contribution)'
+  venue_html: '**NeurIPS 2022, 2nd MATH-AI Workshop**'
+  links_primary:
+    - label: "PDF"
+      url: "https://arxiv.org/abs/2210.05075"
+      class: "pdf"
+  summary: "Inference time calibration for LLM-based numerical reasoning."
+
+- id: tacube
+  sort_key: "2022-05-20-tacube"
+  selected: false
+  title: "TaCube: Pre-computing Data Cubes for Answering Numerical-Reasoning Questions over Tabular Data"
+  authors: '**Fan Zhou**, Mengkang Hu, Haoyu Dong, Zhoujun Cheng, Fan Cheng, Shi Han, Dongmei Zhang'
+  venue_html: '**EMNLP 2022,** **<font color="#cc0000">Oral</font>**'
+  links_primary:
+    - label: "PDF"
+      url: "https://arxiv.org/abs/2205.12682"
+      class: "pdf"
+  summary: "Pre-computing aggregation/arithmetic results to assist table numerical reasoning."
+
+- id: table_pretraining
+  sort_key: "2022-01-20-table-pretraining"
+  selected: false
+  title: "Table Pre-training: A Survey on Model Architectures, Pretraining Objectives, and Downstream Tasks"
+  authors: 'Haoyu Dong, Zhoujun Cheng, Xinyi He, Mengyu Zhou, Anda Zhou, **Fan Zhou**, Ao Liu, Shi Han, Dongmei Zhang'
+  venue_html: '**IJCAI 2022 (survey track)**'
+  links_primary:
+    - label: "PDF"
+      url: "https://arxiv.org/abs/2201.09745"
+      class: "pdf"
+  summary: "A survey on various tabular models, especially on the pretrained transformers."
+
+- id: inn_regions
+  sort_key: "2022-01-10-inn-regions"
+  selected: false
+  title: "Exploring Image Regions Not Well Encoded by an INN"
+  authors: 'Zenan Ling, **Fan Zhou**, Meng Wei, Quanshi Zhang'
+  venue_html: '**AISTATS 2022**'
+  links_primary:
+    - label: "PDF"
+      url: "https://proceedings.mlr.press/v151/ling22a/ling22a.pdf"
+      class: "pdf"
+  summary: "An analysis on the normalizing flow's generation flaws."
+
+- id: deepinfo
+  sort_key: "2022-01-05-deepinfo"
+  selected: false
+  title: "Quantification and Analysis of Layer-wise and Pixel-wise Information Discarding"
+  authors: 'Haotian Ma, Hao Zhang, **Fan Zhou**, Quanshi Zhang'
+  venue_html: '**ICML 2022**'
+  links_primary:
+    - label: "PDF"
+      url: "https://proceedings.mlr.press/v162/ma22b/ma22b.pdf"
+      class: "pdf"
+    - label: "Code"
+      url: "https://github.com/haotianSustc/deepinfo"
+      class: "code"
+  summary: "A quantitative analysis of CNNs."
