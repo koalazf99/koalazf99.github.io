@@ -11,10 +11,8 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-# About Me
-<div class="about-intro" markdown="1">
-I am a 1st year PhD student at **[Shanghai Jiao Tong University](https://en.sjtu.edu.cn/)**, advised by Prof. **[Pengfei Liu](https://pfliu.com/)**. My research focuses on scalable methods for building capable foundation models and robust agentic systems.
-Recently (2023-Now), I have been working on data-centric recipes for foundation models and agentic AI for real-world scenarios.
+<div class="hero-intro" markdown="1">
+<p class="hero-summary">I am a PhD student at <strong><a href="https://en.sjtu.edu.cn/">Shanghai Jiao Tong University</a></strong>, advised by Prof. <strong><a href="https://pfliu.com/">Pengfei Liu</a></strong>. I work on foundation models and agentic systems; recently, I have been focusing on and thinking about self-evolving and long-horizon agents.</p>
 </div>
 
 <!--
@@ -42,7 +40,7 @@ Recently (2023-Now), I have been working on data-centric recipes for foundation 
 
 {% include publications.md %}
 
-# Experiences
+# Experience
 
 <!-- 
 

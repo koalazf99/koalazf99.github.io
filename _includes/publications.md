@@ -1,4 +1,4 @@
-<div id="publications">
+<div id="publications"{% unless page.full_publications %} class="publications--selected"{% endunless %}>
 
 <div class="publication-header">
 {% if page.full_publications %}
@@ -10,22 +10,34 @@
 </div>
 
 <div class="paper-box-text" data-selected="false" markdown="1">
-<strong><font color="#374798">Pushing Qwen3-Max-Thinking Beyond its Limits</font></strong>\\
-**Qwen Team** <br>
-<a href="https://qwen.ai/blog?id=qwen3-max-thinking" class="pdf"><span>Blog</span></a>
-<br>
-<span>A strong reasoning model for advanced reasoning, verification, and multi-step problem solving with adaptive tool-use and test-time scaling.</span>
-<br>
-<br>
-</div>
-
-<div class="paper-box-text" data-selected="false" markdown="1">
 <strong><font color="#374798">MegaFlow: Large-Scale Distributed Orchestration System for the Agentic Era</font></strong>\\
 Lei Zhang, Mouxiang Chen, Ruisheng Cao, Jiawei Chen, **Fan Zhou**, Yiheng Xu, Jiaxi Yang, Liang Chen, Changwei Luo, Kai Zhang, Fan Yan, KaShun Shum, Jiajun Zhang, Zeyu Cui, Hu Feng, Junyang Lin, Binyuan Hui, Min Yang \\
 **2026, Preprint**. <br>
 <a href="https://arxiv.org/abs/2601.07526" class="pdf"><span>PDF</span></a>
 <br>
 <span>A large-scale distributed orchestration system for efficient scheduling, resource allocation, and fine-grained task management of agent-environment workloads.</span>
+<br>
+<br>
+</div>
+
+<div class="paper-box-text" data-selected="true" markdown="1">
+<strong><font color="#374798">Qwen3.5: Towards Native Multimodal Agents</font></strong>\\
+**Qwen Team** <br>
+<a href="https://qwen.ai/blog?id=qwen3.5" class="pdf"><span>Blog</span></a> <span class="link-sep">·</span> <img src="{{ '/images/huggingface_logo.svg' | relative_url }}" class="hf-logo" alt="Hugging Face">
+<a href="https://huggingface.co/collections/Qwen/qwen35" class="pdf"><span>Models</span></a>
+<br>
+<span>A native multimodal model family with powerful agent capabilities.</span>
+<br>
+<br>
+</div>
+
+<div class="paper-box-text" data-selected="true" markdown="1">
+<strong><font color="#374798">Qwen3-Coder-Next: Pushing Small Hybrid Models on Agentic Coding</font></strong>\\
+**Qwen Team** (Core Contributor) <br>
+<a href="https://qwen.ai/blog?id=qwen3-coder-next" class="pdf"><span>Blog</span></a> <span class="link-sep">·</span> <a href="https://github.com/QwenLM/Qwen3-Coder/blob/main/qwen3_coder_next_tech_report.pdf" class="pdf"><span>Tech Report</span></a> <span class="link-sep">·</span> <a href="https://github.com/QwenLM/Qwen3-Coder" class="code"><span>Code</span></a> <span class="link-sep">·</span> <img src="{{ '/images/huggingface_logo.svg' | relative_url }}" class="hf-logo" alt="Hugging Face">
+<a href="https://huggingface.co/Qwen/Qwen3-Coder-Next" class="pdf"><span>Model</span></a>
+<br>
+<span>A local-first agentic coding model based on Qwen3-Next.</span>
 <br>
 <br>
 </div>
@@ -54,7 +66,7 @@ Graham Neubig, Junxian He
     ">
 [more authors]
 </a> \\
-**2025, Preprint**. <br>
+**ICLR 2026**. <br>
 <a href="https://arxiv.org/abs/2510.25726" class="pdf"><span>PDF</span></a>
 <br>
 <span>A benchmark for language agents with 32 software applications, 604 tools, and 108 tasks covering diverse, realistic, and long-horizon task execution.</span>
@@ -68,26 +80,15 @@ Graham Neubig, Junxian He
 <a href="https://qwenlm.github.io/blog/qwen3-coder/" class="pdf"><span>Blog</span></a> <span class="link-sep">·</span> <a href="https://github.com/QwenLM/Qwen3-Coder" class="code"><span>Code</span></a> <span class="link-sep">·</span> <img src="{{ '/images/huggingface_logo.svg' | relative_url }}" class="hf-logo" alt="Hugging Face"> 
 <a href="https://huggingface.co/collections/Qwen/qwen3-coder-687fc861e53c939e52d52d10" class="pdf"><span>Models</span></a>
 <br>
-<span>Focused on Improving Agentic Coding Capabilities.</span>
+<span>Focused on improving agentic coding capabilities.</span>
 <br>
 <br>
 </div>
 
-<div class="paper-box-text" data-selected="true" markdown="1">
-<strong><font color="#374798">Qwen3-Coder-Next: Pushing Small Hybrid Models on Agentic Coding</font></strong>\\
-**Qwen Team** (Core Contributor) <br>
-<a href="https://qwen.ai/blog?id=qwen3-coder-next" class="pdf"><span>Blog</span></a> <span class="link-sep">·</span> <a href="https://github.com/QwenLM/Qwen3-Coder/blob/main/qwen3_coder_next_tech_report.pdf" class="pdf"><span>Tech Report</span></a> <span class="link-sep">·</span> <a href="https://github.com/QwenLM/Qwen3-Coder" class="code"><span>Code</span></a> <span class="link-sep">·</span> <img src="{{ '/images/huggingface_logo.svg' | relative_url }}" class="hf-logo" alt="Hugging Face">
-<a href="https://huggingface.co/Qwen/Qwen3-Coder-Next" class="pdf"><span>Model</span></a>
-<br>
-<span>A local-first agentic coding model based on Qwen3-Next.</span>
-<br>
-<br>
-</div>
-
-<div class="paper-box-text" data-selected="true" markdown="1">
+<div class="paper-box-text" data-selected="false" markdown="1">
 <strong><font color="#374798">Qwen Code</font></strong>\\
-**Qwen Team** (First Contributor) <br>
-<a href="https://github.com/QwenLM/qwen-code" class="code"><span>Code</span></a>
+**Qwen Team** (Core Contributor) <br>
+<a href="https://github.com/QwenLM/qwen-code" class="code"><span>Code</span></a> <span class="link-sep">·</span> <a href="https://qwen.ai/qwencode" class="pdf"><span>Web</span></a>
 <br>
 <span>An open-source AI agent that lives in your terminal.</span>
 <br>
@@ -156,7 +157,7 @@ Shijie Xia, Yiwei Qin, Xuefeng Li, Yan Ma, Run-Ze Fan, Steffi Chern, Haoyang Zou
 **COLM 2025**. <br>
 <a href="https://arxiv.org/abs/2504.02807" class="pdf"><span>PDF</span></a> <span class="link-sep">·</span> <a href="https://github.com/LLM360/MegaMath" class="code"><span>Code</span></a> <span class="link-sep">·</span> <img src="{{ '/images/huggingface_logo.svg' | relative_url }}" class="hf-logo" alt="Hugging Face"> 
 <a href="https://huggingface.co/datasets/LLM360/MegaMath" class="pdf"><span>Dataset</span></a>
-<span>**<font color="#cc0000">(>70K Downloads, >350B Tokens)</font>**</span> / 
+<span>**<font color="#cc0000">(>70K Downloads, >350B Tokens)</font>**</span>
 <a href="https://github.com/LLM360/MegaMath" class="repo-star-link"><img src="https://img.shields.io/github/stars/LLM360/MegaMath?style=social" class="repo-star" alt="GitHub stars"></a>
 <br>
 <span>The largest open math pre-training dataset with 370B tokens.</span>
@@ -165,7 +166,7 @@ Shijie Xia, Yiwei Qin, Xuefeng Li, Yan Ma, Run-Ze Fan, Steffi Chern, Haoyang Zou
 </div>
 
 
-<div class="paper-box-text" data-selected="true" markdown="1">
+<div class="paper-box-text" data-selected="false" markdown="1">
 <strong><font color="#374798">Sailor2: Sailing in South-East Asia with Inclusive Multilingual LLMs</font></strong>\\
 Longxu Dou\*, Qian Liu\*, **Fan Zhou\***, Changyu Chen\*, 
 <span id="authorsCollapsed-sailor2">... , </span>
@@ -216,7 +217,7 @@ Wei Liu\*, Junlong Li\*, Xiwen Zhang, **Fan Zhou**, Yu Cheng, Junxian He, (*=equ
 **ICML 2025** <br>
 <a href="https://arxiv.org/abs/2409.17115" class="pdf"><span>PDF</span></a> <span class="link-sep">·</span> <a href="https://github.com/GAIR-NLP/ProX" class="code"><span>Code</span></a> <span class="link-sep">·</span> <img src="{{ '/images/huggingface_logo.svg' | relative_url }}" class="hf-logo" alt="Hugging Face"> 
 <a href="https://huggingface.co/gair-prox" class="pdf"><span>Dataset</span></a>
-<span>**<font color="#cc0000">(>10K Downloads, >500B Tokens)</font>**</span> / 
+<span>**<font color="#cc0000">(>10K Downloads, >500B Tokens)</font>**</span>
 <a href="https://gair-nlp.github.io/ProX" class="pdf"><span>Project Page</span></a> <span class="link-sep">·</span> <a href="https://github.com/GAIR-NLP/ProX" class="repo-star-link"><img src="https://img.shields.io/github/stars/GAIR-NLP/ProX?style=social" class="repo-star" alt="GitHub stars"></a>
 <br>
 <span>A small-LLM-based pre-training data refining framework via seamless program generation.</span> 
@@ -253,7 +254,7 @@ Junlong Li, **Fan Zhou**, Shichao Sun, Yikai Zhang, Hai Zhao, Pengfei Liu \\
 Tianbao Xie\*, **Fan Zhou\***, Zhoujun Cheng\*, Peng Shi\*, Luoxuan Weng\*, Yitao Liu\*, Toh Jing Hua, Junning Zhao, Qian Liu, Che Liu, Leo Z. Liu, Yiheng Xu, Hongjin Su, Dongchan Shin, Caiming Xiong, Tao Yu, (*=equal contribution) \\
 **COLM 2024** <br>
 <a href="https://arxiv.org/abs/2310.10634" class="pdf"><span>PDF</span></a> <span class="link-sep">·</span> <a href="https://github.com/xlang-ai/OpenAgents" class="code"><span>Code</span></a> <span class="link-sep">·</span> <a href="https://www.xlang.ai/blog/xlang-intro" class="pdf"><span>Blog</span></a>
-<span>**<font color="#cc0000"> (7.5K Users)</font>**</span> / 
+<span>**<font color="#cc0000"> (7.5K Users)</font>**</span>
 <a href="https://github.com/xlang-ai/OpenAgents" class="repo-star-link"><img src="https://img.shields.io/github/stars/xlang-ai/OpenAgents?style=social" class="repo-star" alt="GitHub stars"></a>
 <br>
 <span>An open platform for using, hosting, and building language agents.</span> 
